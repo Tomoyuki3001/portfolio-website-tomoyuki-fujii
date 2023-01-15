@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar.jsx"
 import About from "../components/About.jsx"
 import Skills from "../components/Skills.jsx"
 import Projects from "../components/Projects.jsx"
+import Contact from "../components/Contact.jsx"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <About/>
       <Skills/>
       <Projects/>
+      <Contact/>
     </div>
   )
 }

@@ -13,7 +13,7 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I'm <span className="text-[#5651e5]">Tomo</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Front-End Developer</h1>
+          <h1 className="py-2 text-gray-700">Front-End Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I’m a junior front-end developer based in Vancouver. I have over one
             year’s experience in front-end development with React.
