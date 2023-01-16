@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+// import Image from "next/image";
+// import Link from "next/link";
 import React from "react";
 import School from "../public/assets/projects/image_project_school.png";
 import Chat from "../public/assets/projects/image_project_chat.png";
@@ -25,51 +25,51 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
+            title="A School app"
             backgroundImg={School}
-            projectUrl="/property"
+            projectUrl="/school"
             tech="React JS"
           />
           <ProjectItem
-            title="Property Finder"
+            title="A chat app"
             backgroundImg={Chat}
-            projectUrl="/property"
+            projectUrl="/chat"
             tech="React JS"
           />
           <ProjectItem
-            title="Property Finder"
+            title="Twoot(Social media apps)"
             backgroundImg={Twoot}
-            projectUrl="/property"
+            projectUrl="/twoot"
             tech="React JS"
           />
           <ProjectItem
-            title="Property Finder"
+            title="A bank tracker app"
             backgroundImg={Bank}
-            projectUrl="/property"
+            projectUrl="/bank"
             tech="React JS"
           />
           <ProjectItem
-            title="Property Finder"
+            title="A searching country app"
             backgroundImg={Countries}
-            projectUrl="/property"
+            projectUrl="/country"
             tech="React JS"
           />
           <ProjectItem
-            title="Property Finder"
+            title="A weather app"
             backgroundImg={Weather}
-            projectUrl="/property"
+            projectUrl="/weather"
             tech="React JS"
           />
           <ProjectItem
-            title="Property Finder"
+            title="A matching game(Trump)"
             backgroundImg={Trump}
-            projectUrl="/property"
+            projectUrl="/trump"
             tech="React JS"
           />
           <ProjectItem
-            title="Property Finder"
+            title="A todo list"
             backgroundImg={Todo}
-            projectUrl="/property"
+            projectUrl="/todo"
             tech="React JS"
           />
         </div>

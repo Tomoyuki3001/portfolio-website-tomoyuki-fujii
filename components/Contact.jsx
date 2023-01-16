@@ -1,12 +1,82 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Profile from "../public/assets/image_profile_square.JPG";
+import Image from "next/image";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [text, setText] = useState("");
+  const [phone, setPhone] = useState("");
+
+  const handleChangeName = (event) => {
+    setName(event.target.value);
+  };
+  const handleChangeEmail = (event) => {
+    setEmail(event.target.value);
+  };
+  const handleChangeSubject = (event) => {
+    setSubject(event.target.value);
+  };
+  const handleChangeText = (event) => {
+    setText(event.target.value);
+  };
+  const handleChangePhone = (event) => {
+    setPhone(event.target.value);
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    if (name === "") {
+      alert("Please type name");
+      return;
+    }
+    if (email === "") {
+      alert("Please type email address");
+      return;
+    }
+    if (subject === "") {
+      alert("Please type subject");
+      return;
+    }
+    if (text === "") {
+      alert("Please type text");
+      return;
+    }
+    if (phone === "") {
+      alert("Please type phone number");
+      return;
+    }
+    emailjs
+      .sendForm(
+        "service_k9qfmdv",
+        "template_2kegrbn",
+        form.current,
+        "2ZrJYgCWQbrUz3Hz4"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    setName("");
+    setEmail("");
+    setSubject("");
+    setText("");
+    setPhone("");
+    alert("Thank you for sending us e-mail!");
+  };
   return (
-    <div className="w-full lg:h-screen">
+    <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Contact
@@ -16,11 +86,7 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="https://img.freepik.com/free-photo/laptop_23-2148155456.jpg?w=2000"
-                  alt="/"
-                />
+                <Image src={Profile} alt="/" />
               </div>
               <div>
                 <h2 className="py-2">Tomoyuki Fujii</h2>
@@ -48,13 +114,16 @@ const Contact = () => {
           </div>
           <div className="col-span-3 w-full shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       type="text"
                       className="border-2 rounded-lg p-3 flex border-gray-300"
+                      name="user_name"
+                      value={name}
+                      onChange={handleChangeName}
                     />
                   </div>
                   <div className="flex flex-col">
@@ -62,6 +131,9 @@ const Contact = () => {
                     <input
                       type="text"
                       className="border-2 rounded-lg p-3 flex border-gray-300"
+                      value={phone}
+                      onChange={handleChangePhone}
+                      name="user_phone"
                     />
                   </div>
                 </div>
@@ -70,13 +142,19 @@ const Contact = () => {
                   <input
                     type="email"
                     className="border-2 rounded-lg p-3 flex border-gray-300"
+                    name="user_email"
+                    value={email}
+                    onChange={handleChangeEmail}
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    type="email"
+                    type="text"
                     className="border-2 rounded-lg p-3 flex border-gray-300"
+                    name="user_subject"
+                    value={subject}
+                    onChange={handleChangeSubject}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -84,6 +162,9 @@ const Contact = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows={10}
+                    value={text}
+                    onChange={handleChangeText}
+                    name="message"
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">

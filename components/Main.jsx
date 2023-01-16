@@ -1,15 +1,26 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
+import Profile from "../public/assets/image_profile_square.JPG";
+import Image from "next/image";
 
 const Main = () => {
   return (
-    <div className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center">
       <div className="mx-w-[1240px] w-full h-full p-2 flex justify-center items-center">
-        <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
+        <div className="pt-40">
+          <div
+            className=" w-1/5 h-auto min-w-[150px] m-auto"
+            style={{
+              borderRadius: "50%",
+              overflow: "hidden",
+            }}
+          >
+            <Image src={Profile} alt="/" />
+          </div>
+          {/* <p className="uppercase text-sm tracking-widest text-gray-600">
             LET'S BUILD SOMETHING TOGETHER
-          </p>
+          </p> */}
           <h1 className="py-4 text-gray-700">
             Hi, I'm <span className="text-[#5651e5]">Tomo</span>
           </h1>
