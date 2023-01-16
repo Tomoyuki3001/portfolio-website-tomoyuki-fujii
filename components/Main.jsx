@@ -16,12 +16,14 @@ const Main = () => {
               overflow: "hidden",
             }}
           >
-            <Image
-              src={"/assets/image_profile_square.JPG"}
-              alt="/"
-              width={900}
-              height={900}
-            />
+            <div>
+              <Image
+                src={"/assets/image_profile_square.JPG"}
+                alt="/"
+                width={900}
+                height={900}
+              />
+            </div>
           </div>
           {/* <p className="uppercase text-sm tracking-widest text-gray-600">
             LET'S BUILD SOMETHING TOGETHER

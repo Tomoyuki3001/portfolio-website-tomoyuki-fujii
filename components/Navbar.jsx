@@ -60,13 +60,15 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/assets/Tomo-logos_transparent.png"
-            alt="/"
-            width="100"
-            height="50"
-            className="cursor-pointer"
-          />
+          <div>
+            <Image
+              src="/assets/Tomo-logos_transparent.png"
+              alt="/"
+              width="100"
+              height="50"
+              className="cursor-pointer"
+            />
+          </div>
         </Link>
         <div>
           <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
