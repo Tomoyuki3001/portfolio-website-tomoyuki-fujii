@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import Profile from "../public/assets/image_profile_square.JPG";
+// import Profile from "../public/assets/image_profile_square.JPG";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 
@@ -86,7 +86,12 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <Image src={Profile} alt="/" />
+                <Image
+                  src={"/assets/image_profile_square.JPG"}
+                  alt="/"
+                  width={800}
+                  height={800}
+                />
               </div>
               <div>
                 <h2 className="py-2">Tomoyuki Fujii</h2>
