@@ -47,6 +47,11 @@ const Main = () => {
               <AiOutlineTwitter />
             </div>
           </div>
+          <button className="w-30 p-5 text-gray-100 mt-4">
+            <a href="/assets/TomoyukiFujii.pdf" download="TomoyukiFujii.pdf">
+              Download Resume
+            </a>
+          </button>
         </div>
       </div>
     </div>
