@@ -8,9 +8,9 @@ const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="mx-w-[1240px] w-full h-full p-2 flex justify-center items-center">
-        <div className="">
+        <div className="pt-40">
           <div
-            className=" w-1/5 h-auto min-w-[150px] m-auto"
+            className=" w-1/4 h-auto min-w-[150px] m-auto"
             style={{
               borderRadius: "50%",
               overflow: "hidden",
@@ -19,8 +19,8 @@ const Main = () => {
             <Image
               src={"/assets/image_profile_square.JPG"}
               alt="/"
-              width={800}
-              height={800}
+              width={900}
+              height={900}
             />
           </div>
           {/* <p className="uppercase text-sm tracking-widest text-gray-600">
