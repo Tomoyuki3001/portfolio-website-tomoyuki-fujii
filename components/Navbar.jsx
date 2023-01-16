@@ -12,8 +12,8 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
-  const [linkColor, setLinkColor] = useState("#1f2937");
+  const [navBg, setNavBg] = useState("#1D2D44");
+  const [linkColor, setLinkColor] = useState("F0EBD8");
   const router = useRouter();
 
   useEffect(() => {
@@ -28,10 +28,10 @@ const Navbar = () => {
       router.asPath === "/todo"
     ) {
       setNavBg("transparent");
-      setLinkColor("#ecf0f3");
+      setLinkColor("#C9ADA7");
     } else {
-      setNavBg("#ecf0f3");
-      setLinkColor("#1f2937");
+      setNavBg("#C9ADA7");
+      setLinkColor("#22223B");
     }
   }, [router]);
 

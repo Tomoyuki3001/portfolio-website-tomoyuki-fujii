@@ -124,6 +124,7 @@ const Contact = () => {
                       name="user_name"
                       value={name}
                       onChange={handleChangeName}
+                      placeholder="Name"
                     />
                   </div>
                   <div className="flex flex-col">
@@ -134,6 +135,7 @@ const Contact = () => {
                       value={phone}
                       onChange={handleChangePhone}
                       name="user_phone"
+                      placeholder="e.g.123-456-7890"
                     />
                   </div>
                 </div>
@@ -145,6 +147,7 @@ const Contact = () => {
                     name="user_email"
                     value={email}
                     onChange={handleChangeEmail}
+                    placeholder="Email address"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -155,6 +158,7 @@ const Contact = () => {
                     name="user_subject"
                     value={subject}
                     onChange={handleChangeSubject}
+                    placeholder="Some text"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -165,6 +169,7 @@ const Contact = () => {
                     value={text}
                     onChange={handleChangeText}
                     name="message"
+                    placeholder="Some text"
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
