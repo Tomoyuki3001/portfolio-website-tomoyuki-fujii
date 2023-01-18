@@ -14,7 +14,7 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 text-gray-600 text-2xl">
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
             passionate about learning new technologies and understand there is
@@ -24,7 +24,7 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 text-gray-600 text-2xl">
             I started web developement in 2013 managing multiple e-commerce
             websites on CMS platforms such as WordPress, BigCommerce, and
             Shopify. I have experience working directly with clients and taking
@@ -33,14 +33,14 @@ const About = () => {
             developement and various front-end technologies.
           </p>
           <Link href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer">
+            <p className="py-2 text-gray-600 underline cursor-pointer text-xl">
               Check out some of my latest projects.
             </p>
           </Link>
           <div className="main_about_button_container">
             <button
               onClick={() => setShow(true)}
-              className="main_about_third_button w-30 p-5 text-gray-100 mt-4"
+              className="main_about_third_button w-30 p-5 text-gray-100 mt-4 text-xl"
             >
               Show my photos
             </button>

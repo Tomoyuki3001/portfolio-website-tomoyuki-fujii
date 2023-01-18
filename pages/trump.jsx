@@ -18,7 +18,7 @@ const trump = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">A matching game(Trump)</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h3>HTML / CSS / JavaScript</h3>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ const trump = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className="text-xl">
             This app was built using React JS and is hosted on Firebase. Users
             are able to search properties based on an Address, City, or ZIP code
             to retrieve a list of active properties currently for sale. You will
@@ -77,7 +77,7 @@ const trump = () => {
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <p className="underline cursor-pointer text-xl">Back</p>
         </Link>
       </div>
     </div>

@@ -6,8 +6,6 @@ html {
   scroll-behavior: smooth !important;
 }
 
-
-
 @layer base {
   body {
     @apply bg-[#F2E9E4] text-[#22223B] tracking-wide

@@ -1,5 +1,3 @@
-// import Image from "next/image";
-// import Link from "next/link";
 import React from "react";
 import School from "../public/assets/projects/image_project_school.png";
 import Chat from "../public/assets/projects/image_project_chat.png";
@@ -10,10 +8,6 @@ import Weather from "../public/assets/projects/image_project_weather.png";
 import Trump from "../public/assets/projects/image_project_trump.png";
 import Todo from "../public/assets/projects/image_project_todo.png";
 import ProjectItem from "./ProjectItem.jsx";
-// import cryptoImg from "../public/assets/projects/crypto.jpg";
-// import netflixImg from "../public/assets/projects/netflix.jpg";
-// import twitchImg from "../public/assets/projects/twitch.jpg";
-// import ProjectItem from "./ProjectItem.jsx";
 
 const Projects = () => {
   return (
@@ -28,49 +22,49 @@ const Projects = () => {
             title="A School app"
             backgroundImg={School}
             projectUrl="/school"
-            tech="React JS"
+            tech="React JS / PostgresSQL / Node.js"
           />
           <ProjectItem
             title="A chat app"
             backgroundImg={Chat}
             projectUrl="/chat"
-            tech="React JS"
+            tech="React JS / Firebase"
           />
           <ProjectItem
             title="Twoot(Social media apps)"
             backgroundImg={Twoot}
             projectUrl="/twoot"
-            tech="React JS"
+            tech="HTML / CSS / JavaScript / Node.js"
           />
           <ProjectItem
             title="A bank tracker app"
             backgroundImg={Bank}
             projectUrl="/bank"
-            tech="React JS"
+            tech="HTML / CSS / JavaScript"
           />
           <ProjectItem
             title="A searching country app"
             backgroundImg={Countries}
             projectUrl="/country"
-            tech="React JS"
+            tech="HTML / CSS / JavaScript / API"
           />
           <ProjectItem
             title="A weather app"
             backgroundImg={Weather}
             projectUrl="/weather"
-            tech="React JS"
+            tech="HTML / CSS / JavaScript / API"
           />
           <ProjectItem
             title="A matching game(Trump)"
             backgroundImg={Trump}
             projectUrl="/trump"
-            tech="React JS"
+            tech="HTML / CSS / JavaScript"
           />
           <ProjectItem
             title="A todo list"
             backgroundImg={Todo}
             projectUrl="/todo"
-            tech="React JS"
+            tech="React JS / Firebase"
           />
         </div>
       </div>

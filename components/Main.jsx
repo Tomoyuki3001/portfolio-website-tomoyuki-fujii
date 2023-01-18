@@ -25,14 +25,11 @@ const Main = () => {
               />
             </div>
           </div>
-          {/* <p className="uppercase text-sm tracking-widest text-gray-600">
-            LET'S BUILD SOMETHING TOGETHER
-          </p> */}
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#5651e5]">Tomo</span>
           </h1>
           <h1 className="py-2 text-gray-700">Front-End Developer</h1>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+          <p className="py-4 text-gray-600 max-w-[70%] m-auto text-2xl">
             I’m a junior front-end developer based in Vancouver. I have over one
             year’s of experience in front-end development with React.
           </p>
@@ -65,7 +62,7 @@ const Main = () => {
               </div>
             </a>
           </div>
-          <button className="w-30 p-5 text-gray-100 mt-4">
+          <button className="w-30 p-5 text-gray-100 mt-4 text-xl">
             <a href="/assets/TomoyukiFujii.pdf" download="TomoyukiFujii.pdf">
               Download Resume
             </a>

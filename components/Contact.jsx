@@ -3,7 +3,6 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-// import Profile from "../public/assets/image_profile_square.JPG";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 
@@ -95,14 +94,14 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Tomoyuki Fujii</h2>
-                <p>Front-End Developer</p>
-                <p className="py-4">
+                <p className="text-xl">Front-End Developer</p>
+                <p className="py-4 text-xl">
                   I am available for part-time or full-time positions. Connect
                   me and let&apos;s talk.
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8">Connect with me</p>
+                <p className="uppercase pt-8 text-xl">Connect with me</p>
                 <div className="flex items-center justify-around py-4">
                   <a
                     target="_blank"
@@ -195,7 +194,7 @@ const Contact = () => {
                     placeholder="Some text"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
+                <button className="w-full p-4 text-gray-100 mt-4 text-xl">
                   Send Message
                 </button>
               </form>
