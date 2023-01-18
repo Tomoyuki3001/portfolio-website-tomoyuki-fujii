@@ -34,7 +34,7 @@ const Main = () => {
           <h1 className="py-2 text-gray-700">Front-End Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I’m a junior front-end developer based in Vancouver. I have over one
-            year’s experience in front-end development with React.
+            year’s of experience in front-end development with React.
           </p>
           <div className="flex items-center justify-between max-w-[320px] m-auto py-4">
             <a
