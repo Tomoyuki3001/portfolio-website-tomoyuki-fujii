@@ -14,7 +14,7 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600 text-xl">
+          <p className="py-2 text-gray-600 text-lg">
             I started learning web development in 2021 with my school course
             that are mostly HTML, CSS, JavaScript, React, Next.js, Tailwind.
             Though I am most proficient in building front-end applications using
@@ -22,7 +22,7 @@ const About = () => {
             up new tech stacks as needed. I believe that being a great developer
             is not using one specific language, but choosing the best tool for
             the job. In my free time, I like to do outdoor activities such as
-            running, swimming, and playing tennis. Each activities{" "}
+            running, swimming, and playing tennis.
           </p>
           <p className="py-2 text-gray-600 text-xl"></p>
           <Link href="/#projects">
