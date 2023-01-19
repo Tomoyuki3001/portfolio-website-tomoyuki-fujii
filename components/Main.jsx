@@ -62,7 +62,7 @@ const Main = () => {
               </div>
             </a>
           </div>
-          <button className="w-30 p-5 text-gray-100 mt-4 text-lg">
+          <button className="w-30 p-4 text-gray-100 mt-4 text-lg">
             <a href="/assets/TomoyukiFujii.pdf" download="TomoyukiFujii.pdf">
               Download Resume
             </a>
