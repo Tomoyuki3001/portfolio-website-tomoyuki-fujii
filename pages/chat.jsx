@@ -27,14 +27,12 @@ const chat = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="text-xl">
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This chat application is used React on the front end and Firebase
+            for the backend technology. No complicated databases here - firebase
+            handles all of that for us. This is an updated version using
+            Firebase web version 9 with modular imports. I also used Tailwind
+            CSS for all the styling. And we recognize each user with Google
+            Aunthentication to log in and start to use this app.
           </p>
           <a
             href="https://github.com/Tomoyuki3001/react-chat"

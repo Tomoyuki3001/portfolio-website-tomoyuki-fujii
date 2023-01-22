@@ -1,14 +1,13 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
-// import Profile from "../public/assets/image_profile_square.JPG";
 import Image from "next/image";
 
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="mx-w-[1240px] w-full h-full p-2 flex justify-center items-center">
-        <div className="pt-40">
+        <div className="mt-48">
           <div
             className=" w-1/4 h-auto min-w-[150px] m-auto"
             style={{
@@ -20,8 +19,8 @@ const Main = () => {
               <Image
                 src={"/assets/image_profile_square.JPG"}
                 alt="/"
-                width={900}
-                height={900}
+                width={500}
+                height={500}
               />
             </div>
           </div>

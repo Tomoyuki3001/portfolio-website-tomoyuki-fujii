@@ -34,13 +34,13 @@ const Projects = () => {
             title="Twoot(Social media apps)"
             backgroundImg={Twoot}
             projectUrl="/twoot"
-            tech="HTML / CSS / JavaScript / Node.js"
+            tech="HTML / CSS / JavaScript / JSON"
           />
           <ProjectItem
             title="A bank tracker app"
             backgroundImg={Bank}
             projectUrl="/bank"
-            tech="HTML / CSS / JavaScript"
+            tech="HTML / CSS / JavaScript / JSON"
           />
           <ProjectItem
             title="A searching country app"

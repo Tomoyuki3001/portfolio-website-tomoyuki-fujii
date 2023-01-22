@@ -27,14 +27,11 @@ const school = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="text-xl">
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was built using React JS and is hosted on Postgres. This
+            website is used by people who are students, instructors, or someone
+            who is interested in here. For students and instructors, they can
+            see own profile page, make new appointments, and make sure own
+            schedule with booking system.
           </p>
           <a
             href="https://github.com/Tomoyuki3001/program-final-project"

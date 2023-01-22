@@ -18,7 +18,7 @@ const bank = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">A bank tracker app</h2>
-          <h3>HTML / CSS / JavaScript</h3>
+          <h3>HTML / CSS / JavaScript / JSON</h3>
         </div>
       </div>
 
@@ -27,14 +27,11 @@ const bank = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="text-xl">
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app is used HTML, CSS, JavaScript, JSON. An expense tracker app
+            allows you to track and categorize your spending. Your financial
+            health will improve by keeping a daily record of your expenses by
+            keeping track of receipts, bills, and other outgoing costs.(Mobile
+            size is still making)
           </p>
           <a
             href="https://github.com/Tomoyuki3001/myTrakr-boilerplate"
@@ -65,13 +62,7 @@ const bank = () => {
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Google API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Zillow API
+                <RiRadioButtonFill className="pr-1" /> JSON
               </p>
             </div>
           </div>
