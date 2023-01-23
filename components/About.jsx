@@ -24,12 +24,6 @@ const About = () => {
             the job. In my free time, I like to do outdoor activities such as
             running, swimming, and playing tennis.
           </p>
-          <p className="py-2 text-gray-600 text-xl"></p>
-          <Link href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer text-xl">
-              Check out some of my latest projects.
-            </p>
-          </Link>
           <div className="main_about_button_container">
             <button
               onClick={() => setShow(true)}

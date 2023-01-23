@@ -334,7 +334,7 @@ html {
         filter: brightness(40%);
       }
       figcaption {
-        opacity: 1;
+        opacity: 0;
         transition: 0.3s;
         position: absolute;
         left: 50%;
@@ -367,13 +367,11 @@ html {
         color: #ffffff;
         font-size: 1.5rem;
       }
-        /* img:hover {
-          filter: brightness(50%);
-          transform: scale(1.2);
-        } */
-        /* figcaption:hover {
+
+        figcaption:hover {
           opacity: 1;
-        }  */
+        }
+  
   .button {
     cursor: pointer;
     width: 15rem;
