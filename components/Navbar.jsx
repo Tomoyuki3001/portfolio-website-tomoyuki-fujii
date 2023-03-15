@@ -72,9 +72,6 @@ const Navbar = () => {
         </Link>
         <div>
           <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
-            <Link href="/">
-              <li className="ml-10 text-md uppercase hover:border-b">Home</li>
-            </Link>
             <Link href="/#about">
               <li className="ml-10 text-md uppercase hover:border-b">About</li>
             </Link>
@@ -136,11 +133,6 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Home
-                </li>
-              </Link>
               <Link href="/#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   About
