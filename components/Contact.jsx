@@ -94,7 +94,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Tomoyuki Fujii</h2>
-                <p className="text-xl">Front-End Developer</p>
+                <p className="text-xl">Full-stack Developer</p>
                 <p className="py-4 text-xl">
                   I am available for part-time or full-time positions. Connect
                   me and let&apos;s talk.
