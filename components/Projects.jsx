@@ -9,6 +9,7 @@ import Trump from "../public/assets/projects/image_project_trump.png";
 import Todo from "../public/assets/projects/image_project_todo.png";
 import ProjectItem from "./ProjectItem.jsx";
 import Hangman from "../public/assets/projects/image_project_hangman.png";
+import Shopping from "../public/assets/projects/image_project_shopping.png";
 
 const Projects = () => {
   return (
@@ -72,6 +73,12 @@ const Projects = () => {
             backgroundImg={Hangman}
             projectUrl="/hangman"
             tech="TypeScript / Node.js"
+          />
+          <ProjectItem
+            title="A shopping cart"
+            backgroundImg={Shopping}
+            projectUrl="/shopping"
+            tech="TypeScript / JSON"
           />
         </div>
       </div>
