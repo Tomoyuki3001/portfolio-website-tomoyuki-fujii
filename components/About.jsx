@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import AboutImg from "../public/assets/about.jpg";
+import AboutImg from "../public/assets/laptop.jpg";
 import Modal from "./Modal.jsx";
 
 const About = () => {
@@ -27,7 +26,7 @@ const About = () => {
           <div className="main_about_button_container">
             <button
               onClick={() => setShow(true)}
-              className="main_about_third_button w-30 p-4 text-gray-100 mt-4 text-lg"
+              className="main_about_third_button w-30 p-4 text-gray-100 mt-8 mb-8 text-lg"
             >
               Show my photos
             </button>
