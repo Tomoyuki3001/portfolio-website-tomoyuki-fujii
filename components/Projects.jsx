@@ -1,5 +1,4 @@
 import React from "react";
-import School from "../public/assets/projects/image_project_school.png";
 import Chat from "../public/assets/projects/image_project_chat.png";
 import Twoot from "../public/assets/projects/image_project_twoot.png";
 import Bank from "../public/assets/projects/image_project_bank.png";
