@@ -1,19 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  AiOutlineMenu,
-  AiOutlineClose,
-  AiOutlineTwitter,
-} from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#A8CAA9");
-  const [linkColor, setLinkColor] = useState("F0EBD8");
+  const [navBg, setNavBg] = useState("#d3d3c5");
+  const [linkColor, setLinkColor] = useState("#F0EBD8");
   const router = useRouter();
 
   useEffect(() => {
@@ -28,9 +24,9 @@ const Navbar = () => {
       router.asPath === "/todo"
     ) {
       setNavBg("transparent");
-      setLinkColor("#C9ADA7");
+      setLinkColor("#ffffff");
     } else {
-      setNavBg("#8e9eab");
+      setNavBg("#a9b3bd");
       setLinkColor("#22223B");
     }
   }, [router]);
@@ -62,9 +58,9 @@ const Navbar = () => {
         <Link href="/">
           <div>
             <Image
-              src="/assets/Tomo-logos_transparent.png"
+              src="/assets/Tomo-logo-PhotoRoom.png-PhotoRoom.png"
               alt="/"
-              width="100"
+              width="130"
               height="50"
               className="cursor-pointer"
             />
@@ -111,7 +107,7 @@ const Navbar = () => {
               <Link href="/">
                 <div>
                   <Image
-                    src="/assets/Tomo-logos_transparent.png"
+                    src="/assets/Tomo-logo-PhotoRoom.png-PhotoRoom.png"
                     alt="/"
                     width="80"
                     height="35"
@@ -155,7 +151,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-10">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text-[#527f9f]">
                 Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
@@ -175,15 +171,6 @@ const Navbar = () => {
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
-                  </div>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://twitter.com/yk_english_jp"
-                >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <AiOutlineTwitter />
                   </div>
                 </a>
               </div>

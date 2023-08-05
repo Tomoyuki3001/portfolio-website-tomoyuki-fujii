@@ -38,14 +38,14 @@ const bank = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className="px-8 py-2 mt-4 mr-8 text-[#ffffff]">Code</button>
           </a>
           <a
             href="https://bank-tracker-apps.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button className="px-8 py-2 mt-4 text-[#ffffff]">Demo</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
