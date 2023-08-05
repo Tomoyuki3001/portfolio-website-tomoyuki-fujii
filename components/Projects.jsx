@@ -21,12 +21,6 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="A School app"
-            backgroundImg={School}
-            projectUrl="/school"
-            tech="React JS / PostgresSQL / Node.js"
-          />
-          <ProjectItem
             title="A chat app"
             backgroundImg={Chat}
             projectUrl="/chat"

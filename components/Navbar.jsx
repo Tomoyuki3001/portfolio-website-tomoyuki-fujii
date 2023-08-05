@@ -12,7 +12,7 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#1D2D44");
+  const [navBg, setNavBg] = useState("#A8CAA9");
   const [linkColor, setLinkColor] = useState("F0EBD8");
   const router = useRouter();
 
@@ -30,7 +30,7 @@ const Navbar = () => {
       setNavBg("transparent");
       setLinkColor("#C9ADA7");
     } else {
-      setNavBg("#C9ADA7");
+      setNavBg("#8e9eab");
       setLinkColor("#22223B");
     }
   }, [router]);
