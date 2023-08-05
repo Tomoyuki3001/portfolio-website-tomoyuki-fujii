@@ -53,7 +53,10 @@ const Main = () => {
             </a>
           </div>
           <button className="w-30 p-4 text-gray-100 mt-4 text-lg">
-            <a href="/assets/TomoyukiFujii.pdf" download="TomoyukiFujii.pdf">
+            <a
+              href="/assets/Tomoyuki Fujii_CV.pdf"
+              download="Tomoyuki Fujii_CV.pdf"
+            >
               Download Resume
             </a>
           </button>
