@@ -18,8 +18,8 @@ const Main = () => {
               <Image
                 src={"/assets/image_profile_square.JPG"}
                 alt="/"
-                width={550}
-                height={550}
+                width={525}
+                height={525}
               />
             </div>
           </div>
@@ -38,7 +38,7 @@ const Main = () => {
               href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedinIn size={30} />
+                <FaLinkedinIn size={25} />
               </div>
             </a>
             <a
@@ -47,7 +47,7 @@ const Main = () => {
               href="https://github.com/Tomoyuki3001"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaGithub size={30} />
+                <FaGithub size={25} />
               </div>
             </a>
           </div>
