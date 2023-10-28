@@ -1,6 +1,5 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { AiOutlineTwitter } from "react-icons/ai";
 import Image from "next/image";
 
 const Main = () => {
@@ -19,18 +18,18 @@ const Main = () => {
               <Image
                 src={"/assets/image_profile_square.JPG"}
                 alt="/"
-                width={500}
-                height={500}
+                width={550}
+                height={550}
               />
             </div>
           </div>
           <h1 className="py-4 text-gray-700">
-            Hi, I&apos;m <span className="text-[#527f9f]">Tomo</span>
+            Hi, I am <span className="text-[#527f9f]">Tomo</span>
           </h1>
           <h1 className="py-2 text-gray-700">Full-stack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto text-xl">
-            I’m a junior full-stack developer based in Vancouver. I have over 2
-            years of experience in full-stack development.
+            I am m a junior full-stack developer based in Vancouver. I have over
+            2 years of experience in full-stack development.
           </p>
           <div className="flex items-center justify-between max-w-[320px] m-auto py-4">
             <a
@@ -39,7 +38,7 @@ const Main = () => {
               href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedinIn />
+                <FaLinkedinIn size={30} />
               </div>
             </a>
             <a
@@ -48,7 +47,7 @@ const Main = () => {
               href="https://github.com/Tomoyuki3001"
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaGithub />
+                <FaGithub size={30} />
               </div>
             </a>
           </div>

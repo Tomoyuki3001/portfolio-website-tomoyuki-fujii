@@ -109,7 +109,7 @@ const Contact = () => {
                     href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaLinkedinIn />
+                      <FaLinkedinIn size={30} />
                     </div>
                   </a>
                   <a
@@ -118,7 +118,7 @@ const Contact = () => {
                     href="https://github.com/Tomoyuki3001"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaGithub />
+                      <FaGithub size={30} />
                     </div>
                   </a>
                 </div>

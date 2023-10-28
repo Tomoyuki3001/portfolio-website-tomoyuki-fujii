@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-[#d4d9de] to-[#d3d3c5] text-[#272829] tracking-wide;
+    @apply bg-gradient-to-r from-[#ffffff] to-[#f1f3f4] text-[#272829] tracking-wide;
   }
 
   h1,
@@ -33,7 +33,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#836564] to-[#836564]  text-[#22223B];
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#527f9f] to-[#527f9f]  text-[#22223B];
   }
 }
 
