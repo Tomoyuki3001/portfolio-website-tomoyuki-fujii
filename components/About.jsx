@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Image from "next/image";
-// import AboutImg from "../public/assets/image_profile_square.jpg";
 import Modal from "./Modal.jsx";
 
 const About = () => {
