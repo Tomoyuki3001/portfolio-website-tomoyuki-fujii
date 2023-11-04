@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Modal from "./Modal.jsx";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const About = () => {
   const [show, setShow] = useState(false);
@@ -23,6 +24,26 @@ const About = () => {
             running, swimming, and playing tennis.
           </p>
           <div className="main_about_button_container">
+            <div className="flex items-center py-4">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
+              >
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 mr-10 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <FaLinkedinIn size={25} />
+                </div>
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Tomoyuki3001"
+              >
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <FaGithub size={25} />
+                </div>
+              </a>
+            </div>
             <button
               onClick={() => setShow(true)}
               className="main_about_third_button w-30 p-4 text-gray-100 mt-8 mb-8 text-lg"

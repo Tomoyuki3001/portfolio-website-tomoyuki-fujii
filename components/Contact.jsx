@@ -80,8 +80,8 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className="flex justify-center">
+          {/* <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
                 <Image
@@ -123,8 +123,8 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-span-3 w-full shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          </div> */}
+          <div className="col-span-3 w-4/5 shadow-xl shadow-gray-400 rounded-xl lg:p-12">
             <div className="p-4">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">

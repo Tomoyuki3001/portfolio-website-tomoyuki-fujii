@@ -6,7 +6,7 @@ const Main = () => {
       <div className="mx-w-[1240px] w-full p-2 text-center">
         <div>
           <h2 className="py-4 text-gray-700">Hello!</h2>
-          <h1 className="py-4 text-gray-700 text-7xl">
+          <h1 className="py-4 text-gray-700">
             I am <span className="text-[#527f9f]">Tomoyuki Fujii</span>.
           </h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto text-xl">
