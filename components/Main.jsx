@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="mx-w-[1240px] w-full h-full p-2 flex justify-center items-center">
-        <div className="mt-48">
+        <div className="mt-40">
           <div
             className=" w-1/4 h-auto min-w-[150px] m-auto"
             style={{
@@ -18,8 +18,8 @@ const Main = () => {
               <Image
                 src={"/assets/image_profile_square.JPG"}
                 alt="/"
-                width={525}
-                height={525}
+                width={1300}
+                height={0}
               />
             </div>
           </div>
