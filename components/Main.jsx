@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="mx-w-[1240px] w-full h-full p-2 flex justify-center items-center">
-        <div className="mt-44">
+        <div className="mt-20">
           <div
             className=" w-1/4 h-auto min-w-[150px] m-auto"
             style={{
@@ -15,16 +15,16 @@ const Main = () => {
             }}
           >
             <div>
-              <Image
+              {/* <Image
                 src={"/assets/image_profile_square.JPG"}
                 alt="/"
                 width={1200}
                 height={0}
-              />
+              /> */}
             </div>
           </div>
           <h1 className="py-4 text-gray-700">
-            Hi, I am <span className="text-[#527f9f]">Tomo</span>
+            Hi! I am <span className="text-[#527f9f]">Tomo.</span>
           </h1>
           <h1 className="py-2 text-gray-700">Full-stack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto text-xl">
