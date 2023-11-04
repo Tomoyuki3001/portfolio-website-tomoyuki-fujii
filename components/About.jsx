@@ -14,7 +14,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600 text-lg">
-            I started learning web development in 2021 with my school course
+            I started learning web development in 2021 with my college program
             that are mostly HTML, CSS, JavaScript, React, Next.js, Tailwind.
             Though I am most proficient in building front-end applications using
             HTML, CSS, Javascript, and React, I am a quick learner and can pick
