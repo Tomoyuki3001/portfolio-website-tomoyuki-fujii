@@ -1,28 +1,28 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="mx-w-[1240px] w-full h-full p-2 flex justify-center items-center">
         <div className="mt-20">
-          <div
+          {/* <div
             className=" w-1/4 h-auto min-w-[150px] m-auto"
             style={{
               borderRadius: "50%",
               overflow: "hidden",
             }}
-          >
-            <div>
-              {/* <Image
+          > */}
+          {/* <div>
+              <Image
                 src={"/assets/image_profile_square.JPG"}
                 alt="/"
                 width={1200}
                 height={0}
-              /> */}
+              />
             </div>
-          </div>
+          </div> */}
           <h1 className="py-4 text-gray-700">
             Hi! I am <span className="text-[#527f9f]">Tomo.</span>
           </h1>
