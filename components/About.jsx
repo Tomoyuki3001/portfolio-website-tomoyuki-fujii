@@ -46,7 +46,7 @@ const About = () => {
             </div>
             <button
               onClick={() => setShow(true)}
-              className="main_about_third_button w-30 p-4 text-gray-100 mt-8 mb-8 text-lg"
+              className="btn main_about_third_button w-30 p-4 text-gray-100 mt-8 mb-8 text-lg shadow-xl shadow-gray-400"
             >
               Show my photos
             </button>

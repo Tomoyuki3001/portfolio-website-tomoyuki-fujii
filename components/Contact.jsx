@@ -184,7 +184,7 @@ const Contact = () => {
                     placeholder="Some text"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4 text-xl">
+                <button className="w-full p-4 text-gray-100 mt-4 text-xl shadow-xl shadow-gray-400 btn">
                   Send Message
                 </button>
               </form>

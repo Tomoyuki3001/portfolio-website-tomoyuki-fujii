@@ -86,7 +86,7 @@ const Modal = (props) => {
           </div>
         </div>
         <div className="modal-footer">
-          <button onClick={props.onClose} className="button">
+          <button onClick={props.onClose} className="modal-button btn">
             Close
           </button>
         </div>

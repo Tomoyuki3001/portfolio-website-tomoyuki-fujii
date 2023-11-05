@@ -8,8 +8,9 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#d3d3c5");
-  const [linkColor, setLinkColor] = useState("#F0EBD8");
+  const [navBg, setNavBg] = useState("transparent");
+  const [linkColor, setLinkColor] = useState("#ffffff");
+  const [border, setBorder] = useState("#ffffff");
   const router = useRouter();
 
   useEffect(() => {
@@ -26,8 +27,8 @@ const Navbar = () => {
       setNavBg("transparent");
       setLinkColor("#ffffff");
     } else {
-      setNavBg("#d5dbde");
-      setLinkColor("#22223B");
+      setNavBg("transparent");
+      setLinkColor("#ffffff");
     }
   }, [router]);
 
@@ -35,8 +36,14 @@ const Navbar = () => {
     const handleShadow = () => {
       if (window.scrollY >= 20) {
         setShadow(true);
+        setNavBg("#d5dbde");
+        setLinkColor("#22223B");
+        setBorder("#22223B");
       } else {
         setShadow(false);
+        setNavBg("transparent");
+        setLinkColor("#ffffff");
+        setBorder("#ffffff");
       }
     };
     window.addEventListener("scroll", handleShadow);
@@ -69,22 +76,30 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
             <Link href="/#about">
-              <li className="ml-10 text-md uppercase hover:border-b border-gray-700">
+              <li
+                className={`ml-10 text-md uppercase hover:border-b ${border}`}
+              >
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-md uppercase hover:border-b border-gray-700">
+              <li
+                className={`ml-10 text-md uppercase hover:border-b ${border}`}
+              >
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-md uppercase hover:border-b border-gray-700">
+              <li
+                className={`ml-10 text-md uppercase hover:border-b ${border}`}
+              >
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-md uppercase hover:border-b border-gray-700">
+              <li
+                className={`ml-10 text-md uppercase hover:border-b ${border}`}
+              >
                 Contact
               </li>
             </Link>
