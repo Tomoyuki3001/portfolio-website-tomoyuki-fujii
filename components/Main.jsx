@@ -15,9 +15,6 @@ const Main = () => {
       >
         <div className="mx-w-[1240px] w-full p-2 text-center">
           <h2 className="py-4 text-white">Hello!</h2>
-          {/* <h1 className="py-4 text-gray-700">
-            I am <span className="text-[#527f9f]">Tomoyuki Fujii</span>.
-          </h1> */}
           <div className="waviy">
             <span className="waviy-span" style={{ "--i": 1 }}>
               I

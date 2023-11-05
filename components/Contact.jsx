@@ -1,9 +1,8 @@
 import React, { useRef, useState } from "react";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import Image from "next/image";
 import emailjs from "@emailjs/browser";
+import Footer from "../components/Footer.jsx";
 
 const Contact = () => {
   const form = useRef();
@@ -71,7 +70,7 @@ const Contact = () => {
     setSubject("");
     setText("");
     setPhone("");
-    alert("Thank you for sending us e-mail!");
+    alert("Email has bees sent!");
   };
   return (
     <div id="contact" className="w-full lg:h-screen">
@@ -81,49 +80,6 @@ const Contact = () => {
         </p>
         <h2 className="py-4">Get In Touch</h2>
         <div className="flex justify-center">
-          {/* <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
-            <div className="lg:p-4 h-full">
-              <div>
-                <Image
-                  src={"/assets/image_profile_square.JPG"}
-                  alt="/"
-                  width={800}
-                  height={800}
-                />
-              </div>
-              <div>
-                <h2 className="py-2">Tomoyuki Fujii</h2>
-                <p className="text-xl">Full-Stack Developer</p>
-                <p className="py-4 text-xl">
-                  I am available for part-time or full-time positions. Connect
-                  me and let&apos;s talk!
-                </p>
-              </div>
-              <div>
-                <p className="uppercase pt-8 text-xl">Connect with me</p>
-                <div className="flex items-center justify-around py-4">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaLinkedinIn size={25} />
-                    </div>
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/Tomoyuki3001"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaGithub size={25} />
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div> */}
           <div className="col-span-3 w-4/5 shadow-xl shadow-gray-400 rounded-xl lg:p-12">
             <div className="p-4">
               <form ref={form} onSubmit={sendEmail}>
@@ -199,6 +155,7 @@ const Contact = () => {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
