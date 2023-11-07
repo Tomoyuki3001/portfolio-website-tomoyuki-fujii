@@ -3,7 +3,7 @@ import { BiEnvelope } from "react-icons/bi";
 
 const Footer = () => {
   return (
-    <footer className="text-white bg-[#2d363a] h-1/6 w-full flex justify-center items-center">
+    <footer className="text-white bg-[#2d363a] w-full flex justify-center items-center">
       <div>
         <div className="flex justify-around mt-4 mb-12">
           <a
