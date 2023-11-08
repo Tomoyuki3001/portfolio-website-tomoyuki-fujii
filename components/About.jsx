@@ -23,14 +23,13 @@ const About = () => {
             />
           </div>
           <p className="py-12 px-4 text-gray-600 text-2xl">
-            I started learning web development in 2021 with my college program
-            that are mostly HTML, CSS, JavaScript, React, Next.js, Tailwind.
-            Though I am most proficient in building front-end applications using
-            HTML, CSS, Javascript, and React, I am a quick learner and can pick
-            up new tech stacks as needed. I believe that being a great developer
-            is not using one specific language, but choosing the best tool for
-            the job. In my free time, I like to do outdoor activities such as
-            running, swimming, and playing tennis.
+            In 2021, I began my web development journey through college,
+            mastering HTML, CSS, JavaScript, React, and Node. I specialize in
+            creating user-friendly full-stack applications with a focus on React
+            and Node, along with expertise in web development. I can adapt to
+            new technologies swiftly, believing in choosing the right tools for
+            each project. Furthermore, I enjoy outdoor activities like running,
+            swimming, and tennis in my free time.
           </p>
           <div className="flex items-center justify-center">
             <div className="main_about_button_container">
