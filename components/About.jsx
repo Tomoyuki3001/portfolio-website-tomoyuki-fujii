@@ -15,10 +15,10 @@ const About = () => {
           <h2 className="pt-4 pb-12">Who I Am</h2>
           <div className="flex items-center justify-center">
             <Image
-              src={"/assets/image_profile_square.JPG"}
+              src={"/assets/img-profile.JPG"}
               className="rounded-xl"
               alt="/"
-              width={350}
+              width={400}
               height={0}
             />
           </div>
