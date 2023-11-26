@@ -2,13 +2,13 @@ import React from "react";
 import Chat from "../public/assets/projects/image_project_chat.png";
 import Twoot from "../public/assets/projects/image_project_twoot.png";
 import Bank from "../public/assets/projects/image_project_bank.png";
-import Countries from "../public/assets/projects/image_project_countries.png";
 import Weather from "../public/assets/projects/image_project_weather.png";
 import Trump from "../public/assets/projects/image_project_trump.png";
 import Todo from "../public/assets/projects/image_project_todo.png";
 import ProjectItem from "./ProjectItem.jsx";
 import Hangman from "../public/assets/projects/image_project_hangman.png";
 import Shopping from "../public/assets/projects/image_project_shopping.png";
+import Recipe from "../public/assets/projects/image_project_recipe.png";
 
 const Projects = () => {
   return (
@@ -38,10 +38,16 @@ const Projects = () => {
             tech="HTML / CSS / JavaScript / JSON"
           />
           <ProjectItem
-            title="A searching country app"
-            backgroundImg={Countries}
-            projectUrl="/country"
-            tech="HTML / CSS / JavaScript / API"
+            title="A searching recipe app"
+            backgroundImg={Recipe}
+            projectUrl="/recipe"
+            tech="React / API"
+          />
+          <ProjectItem
+            title="A shopping cart"
+            backgroundImg={Shopping}
+            projectUrl="/shopping"
+            tech="TypeScript / JSON"
           />
           <ProjectItem
             title="A weather app"
@@ -50,10 +56,10 @@ const Projects = () => {
             tech="HTML / CSS / JavaScript / API"
           />
           <ProjectItem
-            title="A matching game(Trump)"
-            backgroundImg={Trump}
-            projectUrl="/trump"
-            tech="HTML / CSS / JavaScript"
+            title="A typing game"
+            backgroundImg={Hangman}
+            projectUrl="/hangman"
+            tech="TypeScript / Node.js"
           />
           <ProjectItem
             title="A todo list"
@@ -62,16 +68,10 @@ const Projects = () => {
             tech="React JS / Firebase"
           />
           <ProjectItem
-            title="A typing game"
-            backgroundImg={Hangman}
-            projectUrl="/hangman"
-            tech="TypeScript / Node.js"
-          />
-          <ProjectItem
-            title="A shopping cart"
-            backgroundImg={Shopping}
-            projectUrl="/shopping"
-            tech="TypeScript / JSON"
+            title="A matching game(Trump)"
+            backgroundImg={Trump}
+            projectUrl="/trump"
+            tech="HTML / CSS / JavaScript"
           />
         </div>
       </div>
