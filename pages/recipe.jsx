@@ -27,7 +27,7 @@ const recipe = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="text-xl">
-            This recipe app is created by React and an Edamam recipe API. A user
+            This recipe app is created by React and Edamam recipe API. A user
             can search recipes with any key words in the serch box. Also, each
             recipe shows up the basic ingredients and the Health Labels.
           </p>
