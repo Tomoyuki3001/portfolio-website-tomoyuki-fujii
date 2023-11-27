@@ -10,8 +10,8 @@ const Experiences = () => {
           EXPERIENCES
         </p>
         <h2 className="py-4">What I&apos;ve Worked</h2>
-        <div className="grid grid-cols lg:grid-cols-3 gap-10 px-2">
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-center">
+        <div className="grid grid-cols lg:grid-cols-3 gap-10 px-2 lg:mt-8">
+          <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
             <div className="m-auto w-1/3">
               <Image src={Icon} alt="/" />
             </div>
@@ -33,7 +33,7 @@ const Experiences = () => {
               HTML / CSS / WordPress
             </h3>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-center">
+          <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
             <div className="m-auto w-1/3">
               <Image src={Icon} alt="/" />
             </div>
@@ -49,13 +49,13 @@ const Experiences = () => {
               Tellext
             </a>
             <h3 className="text-sm md:text-md lg:text-xl my-2">
-              February 2023 - November 2023
+              February 2023 - July 2023
             </h3>
             <h3 className="text-sm md:text-md lg:text-xl mb-1">
               React / WordPress
             </h3>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 text-center">
+          <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
             <div className="m-auto w-1/3">
               <Image src={Icon} alt="/" />
             </div>
