@@ -1,10 +1,10 @@
 import Main from "../components/Main.jsx";
 import Head from "next/head";
 import About from "../components/About.jsx";
-import Skills from "../components/Skills.jsx";
 import Projects from "../components/Projects.jsx";
 import Contact from "../components/Contact.jsx";
 import Navbar from "../components/Navbar.jsx";
+import Experiences from "../components/Experiences.jsx";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
       <Main />
       <About />
-      <Skills />
+      <Experiences />
       <Projects />
       <Contact />
     </div>
