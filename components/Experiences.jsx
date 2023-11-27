@@ -20,6 +20,8 @@ const Experiences = () => {
             </h2>
             <a
               href="https://gaorfid.com/"
+              target="_blank"
+              rel="noreferrer"
               className="text-md md:text-xl lg:text-2xl text-blue-600"
             >
               GAO RFID
@@ -40,6 +42,8 @@ const Experiences = () => {
             </h2>
             <a
               href="https://tellext.com/"
+              target="_blank"
+              rel="noreferrer"
               className="text-md md:text-xl lg:text-2xl text-blue-600"
             >
               Tellext
@@ -60,6 +64,8 @@ const Experiences = () => {
             </h2>
             <a
               href="https://www.onecommunityglobal.org/"
+              target="_blank"
+              rel="noreferrer"
               className="text-md md:text-xl lg:text-2xl text-blue-600"
             >
               One Community Global
