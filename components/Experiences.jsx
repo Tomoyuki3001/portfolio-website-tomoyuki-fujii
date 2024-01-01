@@ -4,13 +4,13 @@ import Icon from "../public/assets/experiences-icon.png";
 
 const Experiences = () => {
   return (
-    <div id="experiences" className="w-full p-2 lg:mb-32">
+    <div id="experiences" className="w-full p-6 lg:mb-32">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-4/5">
         <p className="text-xl tracking-widest uppercase text-[#527f9f]">
           EXPERIENCES
         </p>
         <h2 className="py-4">What I&apos;ve Worked</h2>
-        <div className="grid grid-cols lg:grid-cols-3 gap-10 px-2 lg:mt-8">
+        <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8">
           <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
             <div className="m-auto w-1/3">
               <Image src={Icon} alt="/" />

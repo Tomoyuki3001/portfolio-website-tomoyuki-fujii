@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div>
           <span className="text-gray-400 leading-10">
-            Tomoyuki Fujii &copy; 2023
+            Tomoyuki Fujii &copy; 2024
           </span>
         </div>
       </div>

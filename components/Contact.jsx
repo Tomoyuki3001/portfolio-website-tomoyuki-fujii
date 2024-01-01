@@ -79,9 +79,9 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="flex justify-center">
+        <div className="flex justify-center w-full">
           <div className="col-span-3 w-4/5 shadow-xl shadow-gray-400 rounded-xl lg:p-12">
-            <div className="p-4">
+            <div className="p-2">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">

@@ -6,7 +6,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const About = () => {
   const [show, setShow] = useState(false);
   return (
-    <div id="about" className="w-full h-full p-10 flex items-center">
+    <div id="about" className="w-full h-full flex items-center p-6">
       <div className="max-w-[1240px] m-auto">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#527f9f]">
@@ -22,7 +22,7 @@ const About = () => {
               height={0}
             />
           </div>
-          <p className="py-12 px-4 text-gray-600 text-2xl">
+          <p className="py-12 sm:px-0 md:px-4 text-gray-600 md:text-2xl sm:text-lg">
             In 2021, I began my web development journey through college,
             mastering HTML, CSS, JavaScript, React, and Node. I specialize in
             creating user-friendly full-stack applications with a focus on React

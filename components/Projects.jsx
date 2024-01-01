@@ -1,78 +1,217 @@
 import React from "react";
-import Chat from "../public/assets/projects/image_project_chat.png";
-import Twoot from "../public/assets/projects/image_project_twoot.png";
-import Bank from "../public/assets/projects/image_project_bank.png";
-import Weather from "../public/assets/projects/image_project_weather.png";
-import Trump from "../public/assets/projects/image_project_trump.png";
-import Todo from "../public/assets/projects/image_project_todo.png";
-import ProjectItem from "./ProjectItem.jsx";
-import Hangman from "../public/assets/projects/image_project_hangman.png";
-import Shopping from "../public/assets/projects/image_project_shopping.png";
-import Recipe from "../public/assets/projects/image_project_recipe.png";
+import Image from "next/image";
+import Money from "../public/assets/money.svg";
+import Search from "../public/assets/search.svg";
+import Shopping from "../public/assets/shopping.svg";
+import Mobile from "../public/assets/mobile.svg";
+import Document from "../public/assets/document.svg";
 
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16">
+      <div className="max-w-[1240px] mx-auto px-6 py-16">
         <p className="text-xl tracking-widest uppercase text-[#527f9f]">
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid md:grid-cols-3 gap-8">
-          <ProjectItem
-            title="A chat app"
-            backgroundImg={Chat}
-            projectUrl="/chat"
-            tech="React JS / Firebase"
-          />
-          <ProjectItem
-            title="Twoot(Social media apps)"
-            backgroundImg={Twoot}
-            projectUrl="/twoot"
-            tech="HTML / CSS / JavaScript / JSON"
-          />
-          <ProjectItem
-            title="A bank tracker app"
-            backgroundImg={Bank}
-            projectUrl="/bank"
-            tech="HTML / CSS / JavaScript / JSON"
-          />
-          <ProjectItem
-            title="A searching recipe app"
-            backgroundImg={Recipe}
-            projectUrl="/recipe"
-            tech="React / API"
-          />
-          <ProjectItem
-            title="A shopping cart"
-            backgroundImg={Shopping}
-            projectUrl="/shopping"
-            tech="TypeScript / JSON"
-          />
-          <ProjectItem
-            title="A weather app"
-            backgroundImg={Weather}
-            projectUrl="/weather"
-            tech="HTML / CSS / JavaScript / API"
-          />
-          <ProjectItem
-            title="A typing game"
-            backgroundImg={Hangman}
-            projectUrl="/hangman"
-            tech="TypeScript / Node.js"
-          />
-          <ProjectItem
-            title="A todo list"
-            backgroundImg={Todo}
-            projectUrl="/todo"
-            tech="React JS / Firebase"
-          />
-          <ProjectItem
-            title="A matching game(Trump)"
-            backgroundImg={Trump}
-            projectUrl="/trump"
-            tech="HTML / CSS / JavaScript"
-          />
+        <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-4/5">
+          <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8">
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto w-1/3">
+                <Image className="w-20 m-auto" src={Money} alt="/" />
+              </div>
+              <h2 className="text-md md:text-xl lg:text-2xl my-3">
+                Secret Account
+              </h2>
+              <p className="text-xl">
+                <a
+                  href="https://auth-app-topaz-nine.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2023
+              </p>
+              <p className="text-xl">
+                This account is for your confidential funds dedicated to
+                achieving financial freedom. Users can create individual
+                accounts, track logs, and utilize a database for efficient data
+                management.
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/auth-app"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="text-xl mb-1">React / Firebase</p>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto w-1/3">
+                <Image className="w-20 m-auto" src={Search} alt="/" />
+              </div>
+              <h2 className="text-md md:text-xl lg:text-2xl my-3">
+                TM Recipes
+              </h2>
+              <p className="text-xl">
+                <a
+                  href="https://food-recipes-tomo.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2023
+              </p>
+              <p className="text-xl">
+                This recipe site allows users to search for menus based on
+                ingredients. The recipes, sourced from an API, can be easily
+                found using various keywords.
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/food-recipes-app"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="text-xl mb-1">React / Recipe API</p>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto w-1/3">
+                <Image className="w-20 m-auto" src={Shopping} alt="/" />
+              </div>
+              <h2 className="text-md md:text-xl lg:text-2xl my-3">
+                Small Ecommerce
+              </h2>
+              <p className="text-xl">
+                <a
+                  href="https://shopping-cart-typescript-ashen.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2023
+              </p>
+              <p className="text-xl">
+                This small ecommerce site offers an enjoyable shopping
+                experience. Users can save products, adjust quantities, and
+                remove items from their cart.
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/shopping-cart-typescript"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="text-xl mb-1">TypeScript / JSON</p>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto w-1/3">
+                <Image className="w-20 m-auto" src={Mobile} alt="/" />
+              </div>
+              <h2 className="text-md md:text-xl lg:text-2xl mb-3">Hangman</h2>
+              <p className="text-xl">
+                <a
+                  href="https://typescript-practice-1.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2023
+              </p>
+              <p className="text-xl">
+                This is a typing game that generates a Hangman figure with a
+                word for players to guess. Correct selections keep the letters
+                in place.
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/typescript-practice-1"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="text-xl mb-1">TypeScript / Node.js</p>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto w-1/3">
+                <Image className="w-20 m-auto" src={Document} alt="/" />
+              </div>
+              <h2 className="text-md md:text-xl lg:text-2xl mb-3">MY MEMO</h2>
+              <p className="text-xl">
+                <a
+                  href="https://tomoyuki3001.github.io/to-do-list/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2023
+              </p>
+              <p className="text-xl">
+                This is a revamped version of a simple to-do list originally
+                built using HTML, CSS, and JS. The update includes modern
+                programming languages and an improved database structure.
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/to-do-list"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="text-xl mb-1">React / Firebase</p>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto w-1/3">
+                <Image className="w-20 m-auto" src={Search} alt="/" />
+              </div>
+              <h2 className="text-md md:text-xl lg:text-2xl mb-3">
+                Weather App
+              </h2>
+              <p className="text-xl">
+                <a
+                  href="https://tomoyuki3001.github.io/weather-react-apps/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2023
+              </p>
+              <p className="text-xl">
+                This modern weather app prioritizes user-friendly simplicity
+                with general functionality, avoiding unnecessary complexities
+                for ease of use.
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/weather-react-apps"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="text-xl mb-1">React / API</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
