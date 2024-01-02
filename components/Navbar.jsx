@@ -13,24 +13,24 @@ const Navbar = () => {
   const [border, setBorder] = useState("#ffffff");
   const router = useRouter();
 
-  useEffect(() => {
-    if (
-      router.asPath === "/school" ||
-      router.asPath === "/chat" ||
-      router.asPath === "/twoot" ||
-      router.asPath === "/bank" ||
-      router.asPath === "/country" ||
-      router.asPath === "/weather" ||
-      router.asPath === "/trump" ||
-      router.asPath === "/todo"
-    ) {
-      setNavBg("transparent");
-      setLinkColor("#ffffff");
-    } else {
-      setNavBg("transparent");
-      setLinkColor("#ffffff");
-    }
-  }, [router]);
+  // useEffect(() => {
+  //   if (
+  //     router.asPath === "/school" ||
+  //     router.asPath === "/chat" ||
+  //     router.asPath === "/twoot" ||
+  //     router.asPath === "/bank" ||
+  //     router.asPath === "/country" ||
+  //     router.asPath === "/weather" ||
+  //     router.asPath === "/trump" ||
+  //     router.asPath === "/todo"
+  //   ) {
+  //     setNavBg("transparent");
+  //     setLinkColor("#ffffff");
+  //   } else {
+  //     setNavBg("transparent");
+  //     setLinkColor("#ffffff");
+  //   }
+  // }, [router]);
 
   useEffect(() => {
     const handleShadow = () => {
@@ -57,8 +57,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-16 shadow-xl z-[100] ease-in-out duration-300"
+          : "fixed w-full h-16 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">

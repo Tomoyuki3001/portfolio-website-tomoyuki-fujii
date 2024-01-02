@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="text-white bg-[#2d363a] w-full flex justify-center items-center">
       <div>
-        <div className="flex justify-around mt-4 mb-12">
+        <div className="flex justify-around mt-8 mb-4">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
           </a>
         </div>
-        <div>
+        <div className="mb-4">
           <span className="text-gray-400 leading-10">
             Tomoyuki Fujii &copy; 2024
           </span>

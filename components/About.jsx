@@ -33,13 +33,13 @@ const About = () => {
           </p>
           <div className="flex items-center justify-center">
             <div className="main_about_button_container">
-              <div className="flex items-center py-4">
+              <div className="flex justify-around py-4">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 mr-10 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedinIn size={25} />
                   </div>
                 </a>
