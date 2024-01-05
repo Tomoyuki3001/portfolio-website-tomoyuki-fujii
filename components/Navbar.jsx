@@ -13,25 +13,6 @@ const Navbar = () => {
   const [border, setBorder] = useState("#ffffff");
   const router = useRouter();
 
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === "/school" ||
-  //     router.asPath === "/chat" ||
-  //     router.asPath === "/twoot" ||
-  //     router.asPath === "/bank" ||
-  //     router.asPath === "/country" ||
-  //     router.asPath === "/weather" ||
-  //     router.asPath === "/trump" ||
-  //     router.asPath === "/todo"
-  //   ) {
-  //     setNavBg("transparent");
-  //     setLinkColor("#ffffff");
-  //   } else {
-  //     setNavBg("transparent");
-  //     setLinkColor("#ffffff");
-  //   }
-  // }, [router]);
-
   useEffect(() => {
     const handleShadow = () => {
       if (window.scrollY >= 20) {
