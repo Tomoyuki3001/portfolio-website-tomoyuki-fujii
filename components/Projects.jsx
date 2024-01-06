@@ -34,7 +34,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-xl">
+              <p className="sm:text-sm md:text-xl">
                 This account is for your confidential funds dedicated to
                 achieving financial freedom. Users can create individual
                 accounts, track logs, and utilize a database for efficient data
@@ -68,7 +68,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-xl">
+              <p className="sm:text-sm md:text-xl">
                 This recipe site allows users to search for menus based on
                 ingredients. The recipes, sourced from an API, can be easily
                 found using various keywords.
@@ -101,7 +101,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-xl">
+              <p className="sm:text-sm md:text-xl">
                 This small ecommerce site offers an enjoyable shopping
                 experience. Users can save products, adjust quantities, and
                 remove items from their cart.
@@ -132,7 +132,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-xl">
+              <p className="sm:text-sm md:text-xl">
                 This is a typing game that generates a Hangman figure with a
                 word for players to guess. Correct selections keep the letters
                 in place.
@@ -163,7 +163,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-xl">
+              <p className="sm:text-sm md:text-xl">
                 This is a revamped version of a simple to-do list originally
                 built using HTML, CSS, and JS. The update includes modern
                 programming languages and an improved database structure.
@@ -196,7 +196,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-xl">
+              <p className="sm:text-sm md:text-xl">
                 This modern weather app prioritizes user-friendly simplicity
                 with general functionality, avoiding unnecessary complexities
                 for ease of use.
