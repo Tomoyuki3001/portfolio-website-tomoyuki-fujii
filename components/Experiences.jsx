@@ -30,7 +30,7 @@ const Experiences = () => {
               November 2023 - Present
             </h3>
             <h3 className="text-sm md:text-md lg:text-xl mb-1">
-              HTML / CSS / WordPress
+              JavaScript/WordPress
             </h3>
           </div>
           <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
@@ -52,7 +52,7 @@ const Experiences = () => {
               February 2023 - July 2023
             </h3>
             <h3 className="text-sm md:text-md lg:text-xl mb-1">
-              React / WordPress
+              React/WordPress
             </h3>
           </div>
           <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
@@ -74,7 +74,7 @@ const Experiences = () => {
               February 2023 - April 2023
             </h3>
             <h3 className="text-sm md:text-md lg:text-xl mb-1">
-              HTML / CSS / JavaScript
+              HTML/CSS/JavaScript
             </h3>
           </div>
         </div>

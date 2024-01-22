@@ -5,6 +5,7 @@ import Search from "../public/assets/search.svg";
 import Shopping from "../public/assets/shopping.svg";
 import Mobile from "../public/assets/mobile.svg";
 import Document from "../public/assets/document.svg";
+import Gift from "../public/assets/gift.svg";
 
 const Projects = () => {
   return (
@@ -16,6 +17,50 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-4/5">
           <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8">
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto w-1/3">
+                <Image className="w-20 m-auto" src={Document} alt="/" />
+              </div>
+              <h2 className="text-md md:text-xl lg:text-2xl my-3">
+                MERN Health App
+              </h2>
+              <p className="text-xl">
+                <a
+                  href="https://mern-health-front.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2024
+              </p>
+              <p className="sm:text-sm md:text-xl">
+                This is a health management app where users can create new
+                doctor appointments. MongoDB is utilized to manage account
+                statuses and generate notifications for users. For more
+                information,{" "}
+                <span>
+                  <a
+                    href="https://devpost.com/software/mern-health-management-app"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xl text-blue-600"
+                  >
+                    DevPost
+                  </a>
+                </span>
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/mern-health"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="text-xl mb-1">React/Node/Express/MongoDB</p>
+            </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
                 <Image className="w-20 m-auto" src={Money} alt="/" />
@@ -48,7 +93,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React / Firebase</p>
+              <p className="text-xl mb-1">React/Firebase</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
@@ -81,7 +126,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React / Recipe API</p>
+              <p className="text-xl mb-1">React/Recipe API</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
@@ -114,7 +159,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">TypeScript / JSON</p>
+              <p className="text-xl mb-1">TypeScript/JSON</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
@@ -145,7 +190,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">TypeScript / Node.js</p>
+              <p className="text-xl mb-1">TypeScript/Node.js</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
@@ -176,7 +221,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React / Firebase</p>
+              <p className="text-xl mb-1">React/Firebase</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
@@ -209,7 +254,50 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React / API</p>
+              <p className="text-xl mb-1">React/API</p>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto w-1/3">
+                <Image className="w-20 m-auto" src={Gift} alt="/" />
+              </div>
+              <h2 className="text-md md:text-xl lg:text-2xl mb-3">
+                Birthday Celeblations
+              </h2>
+              <p className="text-xl">
+                <a
+                  href="https://hbd-template.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2024
+              </p>
+              <p className="sm:text-sm md:text-xl">
+                There are already many ideas of birthday cards and barthday
+                invitaitons, but this is a website which has all of materials
+                what you want to send your patner. For more information,{" "}
+                <span>
+                  <a
+                    href="https://devpost.com/software/hbd-template"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xl text-blue-600"
+                  >
+                    DevPost
+                  </a>
+                </span>
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/hbd-template"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="text-xl mb-1">React/CSS</p>
             </div>
           </div>
         </div>
