@@ -7,7 +7,7 @@ const Experiences = () => {
     <div id="experiences" className="w-full lg:mb-32">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-4/5">
         <p className="text-xl tracking-widest uppercase text-[#527f9f]">
-          EXPERIENCES
+          EXPERIENCE
         </p>
         <h2 className="py-4">What I&apos;ve Worked</h2>
         <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8">
@@ -15,7 +15,7 @@ const Experiences = () => {
             <div className="m-auto w-20">
               <Image src={Icon} alt="/" />
             </div>
-            <h2 className="text-md md:text-xl lg:text-2xl mb-3">
+            <h2 className="text-md md:text-xl mb-3">
               Software Engineer Intern
             </h2>
             <a
@@ -37,7 +37,7 @@ const Experiences = () => {
             <div className="m-auto w-20">
               <Image src={Icon} alt="/" />
             </div>
-            <h2 className="text-md md:text-xl lg:text-2xl mb-3">
+            <h2 className="text-md md:text-xl mb-3">
               Software Engineer Intern
             </h2>
             <a
@@ -59,7 +59,7 @@ const Experiences = () => {
             <div className="m-auto w-20">
               <Image src={Icon} alt="/" />
             </div>
-            <h2 className="text-md md:text-xl lg:text-2xl mb-3">
+            <h2 className="text-md md:text-xl mb-3">
               Software Engineer Intern
             </h2>
             <a

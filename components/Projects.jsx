@@ -16,9 +16,9 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-4/5">
-          <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8">
+          <div className="grid grid-cols lg:grid-cols-3 gap-14 lg:mt-8">
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
-              <div className="m-auto w-1/3">
+              <div className="m-auto">
                 <Image className="w-16 m-auto" src={Mobile} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl my-3">Chat App</h2>
@@ -33,7 +33,7 @@ const Projects = () => {
                 </a>
                 -2024
               </p>
-              <p className="sm:text-sm md:text-xl">
+              <p className="text-sm md:text-xl">
                 This is a clone of Messenger, which a user can use as a chat
                 application. The user can create an account, send messages, and
                 create a chat group. For more information,{" "}
@@ -59,7 +59,7 @@ const Projects = () => {
               <p className="text-xl mb-1">Next.js/Prisma/MongoDB</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
-              <div className="m-auto w-1/3">
+              <div className="m-auto">
                 <Image className="w-16 m-auto" src={Document} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl my-3">
@@ -103,7 +103,7 @@ const Projects = () => {
               <p className="text-xl mb-1">React/Node/Express/MongoDB</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
-              <div className="m-auto w-1/3">
+              <div className="m-auto">
                 <Image className="w-16 m-auto" src={Money} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl my-3">
@@ -137,7 +137,7 @@ const Projects = () => {
               <p className="text-xl mb-1">React/Firebase</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
-              <div className="m-auto w-1/3">
+              <div className="m-auto">
                 <Image className="w-16 m-auto" src={Search} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl my-3">
@@ -170,7 +170,7 @@ const Projects = () => {
               <p className="text-xl mb-1">React/Recipe API</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
-              <div className="m-auto w-1/3">
+              <div className="m-auto">
                 <Image className="w-16 m-auto" src={Shopping} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl my-3">
@@ -203,7 +203,7 @@ const Projects = () => {
               <p className="text-xl mb-1">TypeScript/JSON</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
-              <div className="m-auto w-1/3">
+              <div className="m-auto">
                 <Image className="w-16 m-auto" src={Mobile} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl mb-3">Hangman</h2>
@@ -234,7 +234,7 @@ const Projects = () => {
               <p className="text-xl mb-1">TypeScript/Node.js</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
-              <div className="m-auto w-1/3">
+              <div className="m-auto">
                 <Image className="w-16 m-auto" src={Document} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl mb-3">MY MEMO</h2>
@@ -265,7 +265,7 @@ const Projects = () => {
               <p className="text-xl mb-1">React/Firebase</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
-              <div className="m-auto w-1/3">
+              <div className="m-auto">
                 <Image className="w-16 m-auto" src={Search} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl mb-3">
@@ -298,7 +298,7 @@ const Projects = () => {
               <p className="text-xl mb-1">React/API</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
-              <div className="m-auto w-1/3">
+              <div className="m-auto">
                 <Image className="w-16 m-auto" src={Gift} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl mb-3">

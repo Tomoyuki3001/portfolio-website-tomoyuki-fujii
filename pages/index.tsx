@@ -5,6 +5,7 @@ import Projects from "../components/Projects.jsx";
 import Contact from "../components/Contact.jsx";
 import Navbar from "../components/Navbar.jsx";
 import Experiences from "../components/Experiences.jsx";
+import Footer from "@/components/Footer.jsx";
 
 export default function Home() {
   return (
@@ -17,12 +18,13 @@ export default function Home() {
       </Head>
       <Navbar />
       <Main />
-      <div className="px-8">
+      <div className="px-6">
         <About />
         <Experiences />
         <Projects />
       </div>
       <Contact />
+      <Footer />
     </div>
   );
 }

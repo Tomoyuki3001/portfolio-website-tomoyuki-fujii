@@ -73,14 +73,14 @@ const Contact = () => {
     alert("Email has bees sent!");
   };
   return (
-    <div id="contact" className="w-full lg:h-screen">
+    <div id="contact" className="w-full lg:h-screen md:mb-60">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#527f9f]">
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
         <div className="flex justify-center w-full">
-          <div className="col-span-3 w-4/5 shadow-xl shadow-gray-400 rounded-xl lg:p-12">
+          <div className="col-span-3 w-4/5  rounded-xl lg:p-12">
             <div className="p-2">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -88,7 +88,7 @@ const Contact = () => {
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       type="text"
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-3 flex border-blue-300"
                       name="user_name"
                       value={name}
                       onChange={handleChangeName}
@@ -99,7 +99,7 @@ const Contact = () => {
                     <label className="uppercase text-sm py-2">Phone</label>
                     <input
                       type="text"
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      className="border-2 rounded-lg p-3 flex border-blue-300"
                       value={phone}
                       onChange={handleChangePhone}
                       name="user_phone"
@@ -111,7 +111,7 @@ const Contact = () => {
                   <label className="uppercase text-sm py-2">E-mail</label>
                   <input
                     type="email"
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-blue-300"
                     name="user_email"
                     value={email}
                     onChange={handleChangeEmail}
@@ -122,22 +122,22 @@ const Contact = () => {
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
                     type="text"
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    className="border-2 rounded-lg p-3 flex border-blue-300"
                     name="user_subject"
                     value={subject}
                     onChange={handleChangeSubject}
-                    placeholder="Some text"
+                    placeholder="Subject"
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="border-2 rounded-lg p-3 border-blue-300"
                     rows={10}
                     value={text}
                     onChange={handleChangeText}
                     name="message"
-                    placeholder="Some text"
+                    placeholder="Messages"
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4 text-xl shadow-xl shadow-gray-400 btn">
@@ -155,7 +155,6 @@ const Contact = () => {
           </Link>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
