@@ -56,7 +56,9 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">Next.js/Prisma/MongoDB</p>
+              <p className="font-bold text-sm md:text-xl mb-1">
+                Next.js/Prisma/MongoDB
+              </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
@@ -100,7 +102,9 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React/Node/Express/MongoDB</p>
+              <p className="font-bold text-sm md:text-xl mb-1">
+                React/Node/Express/MongoDB
+              </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
@@ -132,7 +136,9 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React/Firebase</p>
+              <p className="font-bold text-sm md:text-xl mb-1">
+                React/Firebase
+              </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
@@ -163,7 +169,9 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React/Recipe API</p>
+              <p className="font-bold text-sm md:text-xl mb-1">
+                React/Recipe API
+              </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
@@ -194,7 +202,9 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">TypeScript/JSON</p>
+              <p className="font-bold text-sm md:text-xl mb-1">
+                TypeScript/JSON
+              </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
@@ -225,7 +235,9 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">TypeScript/Node.js</p>
+              <p className="font-bold text-sm md:text-xl mb-1">
+                TypeScript/Node.js
+              </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
@@ -256,7 +268,9 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React/Firebase</p>
+              <p className="font-bold text-sm md:text-xl mb-1">
+                React/Firebase
+              </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
@@ -287,7 +301,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React/API</p>
+              <p className="font-bold text-sm md:text-xl mb-1">React/API</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
@@ -330,7 +344,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="text-xl mb-1">React/CSS</p>
+              <p className="font-bold text-sm md:text-xl mb-1">React/CSS</p>
             </div>
           </div>
         </div>

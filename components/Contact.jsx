@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
-import Footer from "../components/Footer.jsx";
 
 const Contact = () => {
   const form = useRef();
@@ -10,7 +9,6 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [text, setText] = useState("");
-  // const [phone, setPhone] = useState("");
 
   const handleChangeName = (event) => {
     setName(event.target.value);
@@ -24,9 +22,6 @@ const Contact = () => {
   const handleChangeText = (event) => {
     setText(event.target.value);
   };
-  // const handleChangePhone = (event) => {
-  //   setPhone(event.target.value);
-  // };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -46,10 +41,7 @@ const Contact = () => {
       alert("Please type text");
       return;
     }
-    // if (phone === "") {
-    //   alert("Please type phone number");
-    //   return;
-    // }
+
     emailjs
       .sendForm(
         "service_k9qfmdv",
@@ -69,7 +61,6 @@ const Contact = () => {
     setEmail("");
     setSubject("");
     setText("");
-    // setPhone("");
     alert("Email has bees sent!");
   };
   return (
@@ -95,17 +86,6 @@ const Contact = () => {
                       placeholder="Name"
                     />
                   </div>
-                  {/* <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Phone</label>
-                    <input
-                      type="text"
-                      className="border-2 rounded-lg p-3 flex border-blue-300"
-                      value={phone}
-                      onChange={handleChangePhone}
-                      name="user_phone"
-                      placeholder="e.g.123-456-7890"
-                    />
-                  </div> */}
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">E-mail</label>
                     <input

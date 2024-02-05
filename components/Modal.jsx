@@ -12,7 +12,7 @@ const Modal = (props) => {
           <h4 className="modal-title">My favorite things</h4>
         </div>
         <div className="modal-body">
-          <div className="modal-body-favorite-photoes">
+          <div className="modal-body-favorite-photoes py-2">
             <div className="image_box hover">
               <figure className="favorite_image">
                 <Image
@@ -27,16 +27,15 @@ const Modal = (props) => {
                     <h1 className="favorite_h1">TENNIS</h1>
                     <p className="favorite_p">
                       One of my favorite sports. I have played tennis for more
-                      than 10 years. I like watching tennis games, playing it
-                      with my friends, and talking about it. It makes me happy
-                      every time.
+                      than 10 years. I also like watching the games. My favorite
+                      player is Nadal.
                     </p>
                   </div>
                 </figcaption>
               </figure>
             </div>
           </div>
-          <div className="modal-body-favorite-photoes">
+          <div className="modal-body-favorite-photoes py-2">
             <div className="image_box hover">
               <figure className="favorite_image">
                 <Image
@@ -52,15 +51,14 @@ const Modal = (props) => {
                     <p className="favorite_p">
                       I like taking photos at any places. Especially, I love
                       sea, sky, and people. While I take it, I always feel like
-                      getting new mind and ideas. Also, that is helpful to think
-                      about new things. This is one of my favorite moments.
+                      getting new mind and ideas.
                     </p>
                   </div>
                 </figcaption>
               </figure>
             </div>
           </div>
-          <div className="modal-body-favorite-photoes">
+          <div className="modal-body-favorite-photoes py-2">
             <div className="image_box hover">
               <figure className="favorite_image">
                 <Image
@@ -75,9 +73,8 @@ const Modal = (props) => {
                     <h1 className="favorite_h1">TRIATHON</h1>
                     <p className="favorite_p">
                       Triathlon is big challenging for me because that has three
-                      types of sports. It is not easy things. But I like to get
-                      through those tough situations. Out of season, I go
-                      running in my free time.
+                      types of sports, but I like to get through those tough
+                      situations.
                     </p>
                   </div>
                 </figcaption>

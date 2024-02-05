@@ -47,8 +47,6 @@ html {
   background-color: #ffffff;
 }
 
-/* bg-gradient-to-r from-[#527f9f] to-[#527f9f] */
-
 .waviy {
   position: relative;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
@@ -112,7 +110,8 @@ html {
 
   .modal-content {
     width: 30rem;
-    background-color: rgba(245, 245, 245, 0.8);
+    background-color: rgb(213, 219, 222);
+    /* background-color: rgba(245, 245, 245, 0.8); */
     transition: all 0.4s ease-in-out;
     transform: translateY(-200px);
     text-align: center;
@@ -179,7 +178,7 @@ html {
   .modal-button {
     cursor: pointer;
     width: 10rem;
-    padding: 0.2rem 2.5rem;
+    padding: 0 2.5rem;
     font-size: 0.8rem;
     position: relative;
     overflow: hidden;
@@ -222,7 +221,7 @@ html {
   .modal-content {
     width: 40rem;
     height: 42rem;
-    background-color: rgba(245, 245, 245, 0.8);
+    background-color: rgb(213, 219, 222);
     transition: all 0.4s ease-in-out;
     transform: translateY(-200px);
     text-align: center;
@@ -287,7 +286,7 @@ html {
   .modal-button {
     cursor: pointer;
     width: 10rem;
-    padding: 0.2rem 2.5rem;
+    padding: 0 2.5rem;
     margin-top: 7rem;
     font-size: 1rem;
     position: relative;
@@ -336,7 +335,7 @@ html {
   .modal-content {
     width: 80rem;
     height: 37rem;
-    background-color: rgba(245, 245, 245, 0.8);
+    background-color: rgb(213, 219, 222);
     transition: all 0.4s ease-in-out;
     transform: translateY(-200px);
     text-align: center;
@@ -350,9 +349,12 @@ html {
     transform: translateY(-200px);
   }
 
-  .modal-header,
-  .modal-footer {
+  .modal-header {
     padding: 1rem;
+  }
+
+  .modal-footer {
+    margin-top: 2rem;
   }
 
   .modal-title {
@@ -431,7 +433,7 @@ html {
   .modal-button {
     cursor: pointer;
     width: 15rem;
-    padding: 0.2rem 2.5rem;
+    padding: 0 2.5rem;
     font-size: 1.2rem;
     position: relative;
     overflow: hidden;
