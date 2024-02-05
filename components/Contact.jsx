@@ -140,7 +140,7 @@ const Contact = () => {
                     placeholder="Messages"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4 text-xl shadow-xl shadow-gray-400 btn">
+                <button className="w-full p-4 text-gray-100 mt-12 text-xl shadow-xl shadow-gray-400 btn">
                   Send Message
                 </button>
               </form>
