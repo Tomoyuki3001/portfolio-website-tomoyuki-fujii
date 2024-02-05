@@ -10,7 +10,7 @@ import Gift from "../public/assets/gift.svg";
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-6 py-16">
+      <div className="max-w-[1240px] mx-auto py-16">
         <p className="text-xl tracking-widest uppercase text-[#527f9f]">
           Projects
         </p>
@@ -19,10 +19,51 @@ const Projects = () => {
           <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8">
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
-                <Image className="w-20 m-auto" src={Document} alt="/" />
+                <Image className="w-16 m-auto" src={Mobile} alt="/" />
+              </div>
+              <h2 className="text-md md:text-xl lg:text-2xl my-3">Chat App</h2>
+              <p className="text-xl">
+                <a
+                  href="https://mern-chat-app-lilac.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2024
+              </p>
+              <p className="sm:text-sm md:text-xl">
+                This is a clone of Messenger, which a user can use as a chat
+                application. The user can create an account, send messages, and
+                create a chat group. For more information,{" "}
+                <span>
+                  <a
+                    href="https://devpost.com/software/mern-chat-app"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xl text-blue-600"
+                  >
+                    DevPost
+                  </a>
+                </span>
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/mern-chat"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="text-xl mb-1">Next.js/Prisma/MongoDB</p>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto w-1/3">
+                <Image className="w-16 m-auto" src={Document} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl my-3">
-                MERN Health App
+                Health Management App
               </h2>
               <p className="text-xl">
                 <a
@@ -63,7 +104,7 @@ const Projects = () => {
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
-                <Image className="w-20 m-auto" src={Money} alt="/" />
+                <Image className="w-16 m-auto" src={Money} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl my-3">
                 Secret Account
@@ -97,7 +138,7 @@ const Projects = () => {
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
-                <Image className="w-20 m-auto" src={Search} alt="/" />
+                <Image className="w-16 m-auto" src={Search} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl my-3">
                 TM Recipes
@@ -130,7 +171,7 @@ const Projects = () => {
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
-                <Image className="w-20 m-auto" src={Shopping} alt="/" />
+                <Image className="w-16 m-auto" src={Shopping} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl my-3">
                 Small Ecommerce
@@ -163,7 +204,7 @@ const Projects = () => {
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
-                <Image className="w-20 m-auto" src={Mobile} alt="/" />
+                <Image className="w-16 m-auto" src={Mobile} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl mb-3">Hangman</h2>
               <p className="text-xl">
@@ -194,7 +235,7 @@ const Projects = () => {
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
-                <Image className="w-20 m-auto" src={Document} alt="/" />
+                <Image className="w-16 m-auto" src={Document} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl mb-3">MY MEMO</h2>
               <p className="text-xl">
@@ -225,7 +266,7 @@ const Projects = () => {
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
-                <Image className="w-20 m-auto" src={Search} alt="/" />
+                <Image className="w-16 m-auto" src={Search} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl mb-3">
                 Weather App
@@ -258,7 +299,7 @@ const Projects = () => {
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto w-1/3">
-                <Image className="w-20 m-auto" src={Gift} alt="/" />
+                <Image className="w-16 m-auto" src={Gift} alt="/" />
               </div>
               <h2 className="text-md md:text-xl lg:text-2xl mb-3">
                 Birthday Celeblations

@@ -22,7 +22,7 @@ const About = () => {
               height={0}
             />
           </div>
-          <p className="py-12 sm:px-0 md:px-4 text-gray-600 md:text-2xl sm:text-lg">
+          <p className="py-12 sm:px-0 md:px-8 text-gray-600 md:text-2xl sm:text-lg">
             In 2021, I began my web development journey through college,
             mastering HTML, CSS, JavaScript, React, and Node. I specialize in
             creating user-friendly full-stack applications with a focus on React
