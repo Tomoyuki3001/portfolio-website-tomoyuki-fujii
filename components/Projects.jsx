@@ -21,7 +21,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Mobile} alt="/" />
               </div>
-              <h2 className="text-md md:text-xl lg:text-2xl my-3">Chat App</h2>
+              <h2 className="text-xl md:text-2xl my-3">Chat App</h2>
               <p className="text-xl">
                 <a
                   href="https://mern-chat-app-lilac.vercel.app/"
@@ -62,7 +62,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Document} alt="/" />
               </div>
-              <h2 className="text-md md:text-xl lg:text-2xl my-3">
+              <h2 className="text-xl md:text-2xl my-3">
                 Health Management App
               </h2>
               <p className="text-xl">
@@ -106,9 +106,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Money} alt="/" />
               </div>
-              <h2 className="text-md md:text-xl lg:text-2xl my-3">
-                Secret Account
-              </h2>
+              <h2 className="text-xl md:text-2xl my-3">Secret Account</h2>
               <p className="text-xl">
                 <a
                   href="https://auth-app-topaz-nine.vercel.app/"
@@ -140,9 +138,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Search} alt="/" />
               </div>
-              <h2 className="text-md md:text-xl lg:text-2xl my-3">
-                TM Recipes
-              </h2>
+              <h2 className="text-xl md:text-2xl my-3">TM Recipes</h2>
               <p className="text-xl">
                 <a
                   href="https://food-recipes-tomo.netlify.app/"
@@ -173,9 +169,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Shopping} alt="/" />
               </div>
-              <h2 className="text-md md:text-xl lg:text-2xl my-3">
-                Small Ecommerce
-              </h2>
+              <h2 className="text-xl md:text-2xl my-3">Small Ecommerce</h2>
               <p className="text-xl">
                 <a
                   href="https://shopping-cart-typescript-ashen.vercel.app/"
@@ -206,7 +200,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Mobile} alt="/" />
               </div>
-              <h2 className="text-md md:text-xl lg:text-2xl mb-3">Hangman</h2>
+              <h2 className="text-xl md:text-2xl mb-3">Hangman</h2>
               <p className="text-xl">
                 <a
                   href="https://typescript-practice-1.vercel.app/"
@@ -237,7 +231,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Document} alt="/" />
               </div>
-              <h2 className="text-md md:text-xl lg:text-2xl mb-3">MY MEMO</h2>
+              <h2 className="text-xl md:text-2xl mb-3">MY MEMO</h2>
               <p className="text-xl">
                 <a
                   href="https://tomoyuki3001.github.io/to-do-list/"
@@ -268,9 +262,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Search} alt="/" />
               </div>
-              <h2 className="text-md md:text-xl lg:text-2xl mb-3">
-                Weather App
-              </h2>
+              <h2 className="text-xl md:text-2xl mb-3">Weather App</h2>
               <p className="text-xl">
                 <a
                   href="https://tomoyuki3001.github.io/weather-react-apps/"
@@ -301,7 +293,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Gift} alt="/" />
               </div>
-              <h2 className="text-md md:text-xl lg:text-2xl mb-3">
+              <h2 className="text-xl md:text-2xl mb-3">
                 Birthday Celeblations
               </h2>
               <p className="text-xl">

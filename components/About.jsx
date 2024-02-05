@@ -6,7 +6,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const About = () => {
   const [show, setShow] = useState(false);
   return (
-    <div id="about" className="w-full h-full flex items-center p-6">
+    <div id="about" className="w-full h-full flex items-center py-6">
       <div className="max-w-[1240px] m-auto">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#527f9f]">

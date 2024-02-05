@@ -10,7 +10,7 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [text, setText] = useState("");
-  const [phone, setPhone] = useState("");
+  // const [phone, setPhone] = useState("");
 
   const handleChangeName = (event) => {
     setName(event.target.value);
@@ -24,9 +24,9 @@ const Contact = () => {
   const handleChangeText = (event) => {
     setText(event.target.value);
   };
-  const handleChangePhone = (event) => {
-    setPhone(event.target.value);
-  };
+  // const handleChangePhone = (event) => {
+  //   setPhone(event.target.value);
+  // };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -46,10 +46,10 @@ const Contact = () => {
       alert("Please type text");
       return;
     }
-    if (phone === "") {
-      alert("Please type phone number");
-      return;
-    }
+    // if (phone === "") {
+    //   alert("Please type phone number");
+    //   return;
+    // }
     emailjs
       .sendForm(
         "service_k9qfmdv",
@@ -69,7 +69,7 @@ const Contact = () => {
     setEmail("");
     setSubject("");
     setText("");
-    setPhone("");
+    // setPhone("");
     alert("Email has bees sent!");
   };
   return (
@@ -80,7 +80,7 @@ const Contact = () => {
         </p>
         <h2 className="py-4">Get In Touch</h2>
         <div className="flex justify-center w-full">
-          <div className="col-span-3 w-4/5  rounded-xl lg:p-12">
+          <div className="col-span-3 w-full rounded-xl lg:p-12">
             <div className="p-2">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">

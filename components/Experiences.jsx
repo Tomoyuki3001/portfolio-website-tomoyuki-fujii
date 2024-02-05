@@ -15,7 +15,7 @@ const Experiences = () => {
             <div className="m-auto w-20">
               <Image src={Icon} alt="/" />
             </div>
-            <h2 className="text-md md:text-xl mb-3">
+            <h2 className="text-lg md:text-2xl mb-3">
               Software Engineer Intern
             </h2>
             <a
@@ -37,7 +37,7 @@ const Experiences = () => {
             <div className="m-auto w-20">
               <Image src={Icon} alt="/" />
             </div>
-            <h2 className="text-md md:text-xl mb-3">
+            <h2 className="text-lg md:text-2xl mb-3">
               Software Engineer Intern
             </h2>
             <a
@@ -59,7 +59,7 @@ const Experiences = () => {
             <div className="m-auto w-20">
               <Image src={Icon} alt="/" />
             </div>
-            <h2 className="text-md md:text-xl mb-3">
+            <h2 className="text-lg md:text-2xl mb-3">
               Software Engineer Intern
             </h2>
             <a
