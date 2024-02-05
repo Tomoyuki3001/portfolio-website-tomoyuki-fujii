@@ -73,7 +73,7 @@ const Contact = () => {
     alert("Email has bees sent!");
   };
   return (
-    <div id="contact" className="w-full lg:h-screen md:mb-48">
+    <div id="contact" className="w-full md:mb-4">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#527f9f]">
           Contact
