@@ -73,7 +73,7 @@ const Contact = () => {
     alert("Email has bees sent!");
   };
   return (
-    <div id="contact" className="w-full lg:h-screen md:mb-60">
+    <div id="contact" className="w-full lg:h-screen md:mb-48">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#527f9f]">
           Contact
@@ -95,7 +95,7 @@ const Contact = () => {
                       placeholder="Name"
                     />
                   </div>
-                  <div className="flex flex-col">
+                  {/* <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Phone</label>
                     <input
                       type="text"
@@ -105,18 +105,18 @@ const Contact = () => {
                       name="user_phone"
                       placeholder="e.g.123-456-7890"
                     />
+                  </div> */}
+                  <div className="flex flex-col">
+                    <label className="uppercase text-sm py-2">E-mail</label>
+                    <input
+                      type="email"
+                      className="border-2 rounded-lg p-3 flex border-blue-300"
+                      name="user_email"
+                      value={email}
+                      onChange={handleChangeEmail}
+                      placeholder="Email address"
+                    />
                   </div>
-                </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">E-mail</label>
-                  <input
-                    type="email"
-                    className="border-2 rounded-lg p-3 flex border-blue-300"
-                    name="user_email"
-                    value={email}
-                    onChange={handleChangeEmail}
-                    placeholder="Email address"
-                  />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
