@@ -17,9 +17,11 @@ export default function Home() {
       </Head>
       <Navbar />
       <Main />
-      <About />
-      <Experiences />
-      <Projects />
+      <div className="px-8">
+        <About />
+        <Experiences />
+        <Projects />
+      </div>
       <Contact />
     </div>
   );
