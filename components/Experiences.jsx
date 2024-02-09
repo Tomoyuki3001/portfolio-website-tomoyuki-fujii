@@ -16,7 +16,7 @@ const Experiences = () => {
               <Image src={Icon} alt="/" />
             </div>
             <h2 className="text-lg md:text-2xl mb-3">
-              Software Engineer Intern
+              Front-end Developer Intern
             </h2>
             <a
               href="https://gaorfid.com/"
@@ -27,7 +27,7 @@ const Experiences = () => {
               GAO RFID
             </a>
             <h3 className="text-sm md:text-md lg:text-xl my-2">
-              November 2023 - Present
+              November 2023 - February 2024
             </h3>
             <h3 className="text-sm md:text-md lg:text-xl mb-1">
               JavaScript/WordPress
@@ -38,7 +38,7 @@ const Experiences = () => {
               <Image src={Icon} alt="/" />
             </div>
             <h2 className="text-lg md:text-2xl mb-3">
-              Software Engineer Intern
+              Front-end Developer Intern
             </h2>
             <a
               href="https://tellext.com/"
@@ -60,7 +60,7 @@ const Experiences = () => {
               <Image src={Icon} alt="/" />
             </div>
             <h2 className="text-lg md:text-2xl mb-3">
-              Software Engineer Intern
+              Front-end Developer Intern
             </h2>
             <a
               href="https://www.onecommunityglobal.org/"

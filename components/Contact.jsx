@@ -76,7 +76,9 @@ const Contact = () => {
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label className="uppercase text-sm py-2 font-bold">
+                      Name
+                    </label>
                     <input
                       type="text"
                       className="border-2 rounded-lg p-3 flex border-blue-300"
@@ -87,19 +89,23 @@ const Contact = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">E-mail</label>
+                    <label className="uppercase text-sm py-2 font-bold">
+                      Email
+                    </label>
                     <input
                       type="email"
                       className="border-2 rounded-lg p-3 flex border-blue-300"
                       name="user_email"
                       value={email}
                       onChange={handleChangeEmail}
-                      placeholder="Email address"
+                      placeholder="Email"
                     />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
+                  <label className="uppercase text-sm py-2 font-bold">
+                    Subject
+                  </label>
                   <input
                     type="text"
                     className="border-2 rounded-lg p-3 flex border-blue-300"
@@ -110,14 +116,16 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Message</label>
+                  <label className="uppercase text-sm py-2 font-bold">
+                    Message
+                  </label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-blue-300"
                     rows={10}
                     value={text}
                     onChange={handleChangeText}
                     name="message"
-                    placeholder="Messages"
+                    placeholder="Message"
                   ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-12 text-xl shadow-xl shadow-gray-400 btn">
