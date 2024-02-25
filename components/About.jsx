@@ -17,9 +17,9 @@ const About = () => {
             <Image
               src={"/assets/img-profile.jpg"}
               className="rounded-xl"
-              alt="/"
+              alt="Profile Image"
               width={400}
-              height={0}
+              height={600}
             />
           </div>
           <p className="py-12 sm:px-0 md:px-8 text-gray-600 md:text-2xl sm:text-lg text-center">
