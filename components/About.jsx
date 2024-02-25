@@ -15,21 +15,21 @@ const About = () => {
           <h2 className="pt-4 pb-12">Who I Am</h2>
           <div className="flex items-center justify-center">
             <Image
-              src={"/assets/img-profile.JPG"}
+              src={"/assets/img-profile.jpg"}
               className="rounded-xl"
               alt="/"
               width={400}
               height={0}
             />
           </div>
-          <p className="py-12 sm:px-0 md:px-8 text-gray-600 md:text-2xl sm:text-lg">
-            In 2021, I began my web development journey through college,
-            mastering HTML, CSS, JavaScript, React, and Node. I specialize in
-            creating user-friendly full-stack applications with a focus on React
-            and Node, along with expertise in web development. I can adapt to
-            new technologies swiftly, believing in choosing the right tools for
-            each project. Furthermore, I enjoy outdoor activities like running,
-            swimming, and tennis in my free time.
+          <p className="py-12 sm:px-0 md:px-8 text-gray-600 md:text-2xl sm:text-lg text-center">
+            In 2021, I started my web development journey through college,
+            mastering HTML/CSS, JavaScript, React, and Node. I specialize in
+            creating user-friendly full-stack applications, with a focus on
+            React and Node, along with expertise in web development. I can adapt
+            to new technologies swiftly, believing in selecting the right tools
+            for each project. Furthermore, in my free time, I enjoy outdoor
+            activities such as running, tennis, and hiking.
           </p>
           <div className="flex items-center justify-center">
             <div className="main_about_button_container">

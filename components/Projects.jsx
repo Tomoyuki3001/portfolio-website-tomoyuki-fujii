@@ -57,7 +57,7 @@ const Projects = () => {
                 View Code
               </a>
               <p className="font-bold text-sm md:text-xl mb-1">
-                Next.js/Prisma/MongoDB
+                Next.js, Prisma, MongoDB
               </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
@@ -78,7 +78,7 @@ const Projects = () => {
                 </a>
                 -2024
               </p>
-              <p className="sm:text-sm md:text-xl">
+              <p className="text-sm md:text-xl">
                 This is a health management app where users can create new
                 doctor appointments. MongoDB is utilized to manage account
                 statuses and generate notifications for users. For more
@@ -103,7 +103,7 @@ const Projects = () => {
                 View Code
               </a>
               <p className="font-bold text-sm md:text-xl mb-1">
-                React/Node/Express/MongoDB
+                React, Node, Express, MongoDB
               </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
@@ -122,7 +122,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="sm:text-sm md:text-xl">
+              <p className="text-sm md:text-xl">
                 This account is for your confidential funds dedicated to
                 achieving financial freedom. Users can create individual
                 accounts, track logs, and utilize a database for efficient data
@@ -137,7 +137,7 @@ const Projects = () => {
                 View Code
               </a>
               <p className="font-bold text-sm md:text-xl mb-1">
-                React/Firebase
+                React, Firebase
               </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
@@ -156,7 +156,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="sm:text-sm md:text-xl">
+              <p className="text-sm md:text-xl">
                 This recipe site allows users to search for menus based on
                 ingredients. The recipes, sourced from an API, can be easily
                 found using various keywords.
@@ -170,7 +170,7 @@ const Projects = () => {
                 View Code
               </a>
               <p className="font-bold text-sm md:text-xl mb-1">
-                React/Recipe API
+                React, Recipe API
               </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
@@ -189,7 +189,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="sm:text-sm md:text-xl">
+              <p className="text-sm md:text-xl">
                 This small ecommerce site offers an enjoyable shopping
                 experience. Users can save products, adjust quantities, and
                 remove items from their cart.
@@ -203,7 +203,7 @@ const Projects = () => {
                 View Code
               </a>
               <p className="font-bold text-sm md:text-xl mb-1">
-                TypeScript/JSON
+                TypeScript, JSON
               </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
@@ -222,7 +222,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="sm:text-sm md:text-xl">
+              <p className="text-sm md:text-xl">
                 This is a typing game that generates a Hangman figure with a
                 word for players to guess. Correct selections keep the letters
                 in place.
@@ -236,7 +236,7 @@ const Projects = () => {
                 View Code
               </a>
               <p className="font-bold text-sm md:text-xl mb-1">
-                TypeScript/Node.js
+                TypeScript, Node.js
               </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
@@ -255,7 +255,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="sm:text-sm md:text-xl">
+              <p className="text-sm md:text-xl">
                 This is a revamped version of a simple to-do list originally
                 built using HTML, CSS, and JS. The update includes modern
                 programming languages and an improved database structure.
@@ -269,7 +269,7 @@ const Projects = () => {
                 View Code
               </a>
               <p className="font-bold text-sm md:text-xl mb-1">
-                React/Firebase
+                React, Firebase
               </p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
@@ -288,7 +288,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="sm:text-sm md:text-xl">
+              <p className="text-sm md:text-xl">
                 This modern weather app prioritizes user-friendly simplicity
                 with general functionality, avoiding unnecessary complexities
                 for ease of use.
@@ -301,7 +301,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">React/API</p>
+              <p className="font-bold text-sm md:text-xl mb-1">React, API</p>
             </div>
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
@@ -321,7 +321,7 @@ const Projects = () => {
                 </a>
                 -2024
               </p>
-              <p className="sm:text-sm md:text-xl">
+              <p className="text-sm md:text-xl">
                 There are already many ideas of birthday cards and barthday
                 invitaitons, but this is a website which has all of materials
                 what you want to send your patner. For more information,{" "}
@@ -344,7 +344,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">React/CSS</p>
+              <p className="font-bold text-sm md:text-xl mb-1">React, CSS</p>
             </div>
           </div>
         </div>
