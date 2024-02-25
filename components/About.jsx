@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Modal from "./Modal.jsx";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import Profile from "../public/assets/img-profile.jpg";
+import Profile from "../public/img-profile.jpg";
 
 const About = () => {
   const [show, setShow] = useState(false);
