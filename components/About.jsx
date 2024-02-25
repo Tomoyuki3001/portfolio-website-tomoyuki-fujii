@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Modal from "./Modal.jsx";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import Profile from "../public/assets/img-profile.jpg";
 
 const About = () => {
   const [show, setShow] = useState(false);
@@ -15,7 +16,7 @@ const About = () => {
           <h2 className="pt-4 pb-12">Who I Am</h2>
           <div className="flex items-center justify-center">
             <Image
-              src={"/assets/img-profile.jpg"}
+              src={Profile}
               className="rounded-xl"
               alt="Profile Image"
               width={400}
