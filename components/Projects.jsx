@@ -6,6 +6,7 @@ import Shopping from "../public/assets/shopping.svg";
 import Mobile from "../public/assets/mobile.svg";
 import Document from "../public/assets/document.svg";
 import Gift from "../public/assets/gift.svg";
+import Fitness from "../public/assets/dumbbell.svg";
 
 const Projects = () => {
   return (
@@ -96,6 +97,49 @@ const Projects = () => {
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/mern-health"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl text-blue-600"
+              >
+                View Code
+              </a>
+              <p className="font-bold text-sm md:text-xl mb-1">
+                React, Node, Express, MongoDB
+              </p>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+              <div className="m-auto">
+                <Image className="w-16 m-auto" src={Fitness} alt="/" />
+              </div>
+              <h2 className="text-xl md:text-2xl my-3">Workout Tracking</h2>
+              <p className="text-xl">
+                <a
+                  href="https://workout-record.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl text-blue-600"
+                >
+                  View Demo
+                </a>
+                -2024
+              </p>
+              <p className="text-sm md:text-xl">
+                Users can record the weight training and cardio training, edit
+                each log, delete unnecessary logs, and update their profile
+                information as other applications. For more information,{" "}
+                <span>
+                  <a
+                    href="https://devpost.com/software/workout-tracking"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xl text-blue-600"
+                  >
+                    DevPost
+                  </a>
+                </span>
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/workout-record"
                 target="_blank"
                 rel="noreferrer"
                 className="text-xl text-blue-600"
