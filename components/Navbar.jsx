@@ -8,7 +8,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("");
-  const [linkColor, setLinkColor] = useState("");
+  const [linkColor, setLinkColor] = useState("#ffffff");
   const [border, setBorder] = useState("");
 
   useEffect(() => {
