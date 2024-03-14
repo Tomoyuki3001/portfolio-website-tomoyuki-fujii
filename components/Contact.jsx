@@ -128,9 +128,11 @@ const Contact = () => {
                     placeholder="Message"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-12 text-xl shadow-xl shadow-gray-400 btn">
-                  Send Message
-                </button>
+                <div className="flex justify-center">
+                  <button className="w-3/4 p-4 text-gray-100 mt-12 text-xl shadow-xl shadow-gray-400 btn">
+                    Send Message
+                  </button>
+                </div>
               </form>
             </div>
           </div>

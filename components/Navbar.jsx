@@ -3,15 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("transparent");
-  const [linkColor, setLinkColor] = useState("#ffffff");
-  const [border, setBorder] = useState("#ffffff");
-  const router = useRouter();
+  const [navBg, setNavBg] = useState("");
+  const [linkColor, setLinkColor] = useState("");
+  const [border, setBorder] = useState("");
 
   useEffect(() => {
     const handleShadow = () => {
@@ -58,28 +56,32 @@ const Navbar = () => {
           <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
             <Link href="/#about">
               <li
-                className={`ml-10 text-md uppercase hover:border-b ${border}`}
+                style={{ borderColor: `${border}` }}
+                className={`ml-10 text-md uppercase hover:border-b`}
               >
                 About
               </li>
             </Link>
             <Link href="/#experiences">
               <li
-                className={`ml-10 text-md uppercase hover:border-b ${border}`}
+                style={{ borderColor: `${border}` }}
+                className={`ml-10 text-md uppercase hover:border-b`}
               >
                 Experience
               </li>
             </Link>
             <Link href="/#projects">
               <li
-                className={`ml-10 text-md uppercase hover:border-b ${border}`}
+                style={{ borderColor: `${border}` }}
+                className={`ml-10 text-md uppercase hover:border-b`}
               >
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
               <li
-                className={`ml-10 text-md uppercase hover:border-b ${border}`}
+                style={{ borderColor: `${border}` }}
+                className={`ml-10 text-md uppercase hover:border-b`}
               >
                 Contact
               </li>
