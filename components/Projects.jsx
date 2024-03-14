@@ -16,8 +16,8 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-4/5 lg:px-8">
-          <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8">
+        <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-4/5">
+          <div className="grid grid-cols lg:grid-cols-3 gap-8 lg:mt-8 lg:px-20">
             <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Mobile} alt="/" />
@@ -34,10 +34,9 @@ const Projects = () => {
                 </a>
                 -2024
               </p>
-              <p className="text-sm md:text-xl">
-                This is a clone of Messenger, which a user can use as a chat
-                application. The user can create an account, send messages, and
-                create a chat group. For more information,{" "}
+              <p className="text-sm md:text-lg">
+                Users can create an account, send messages, and create a chat
+                group. For more information,{" "}
                 <span>
                   <a
                     href="https://devpost.com/software/mern-chat-app"
@@ -65,9 +64,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Document} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl my-3">
-                Health Management App
-              </h2>
+              <h2 className="text-xl md:text-2xl my-3">Health Management</h2>
               <p className="text-xl">
                 <a
                   href="https://mern-health-front.vercel.app/"
@@ -79,11 +76,9 @@ const Projects = () => {
                 </a>
                 -2024
               </p>
-              <p className="text-sm md:text-xl">
-                This is a health management app where users can create new
-                doctor appointments. MongoDB is utilized to manage account
-                statuses and generate notifications for users. For more
-                information,{" "}
+              <p className="text-sm md:text-lg">
+                Users can create new doctor appointments, manage account
+                statuses, and generate notifications for users.
                 <span>
                   <a
                     href="https://devpost.com/software/mern-health-management-app"
@@ -123,10 +118,9 @@ const Projects = () => {
                 </a>
                 -2024
               </p>
-              <p className="text-sm md:text-xl">
+              <p className="text-sm md:text-lg">
                 Users can record the weight training and cardio training, edit
-                each log, delete unnecessary logs, and update their profile
-                information as other applications. For more information,{" "}
+                each log, delete unnecessary logs, and update their profile.
                 <span>
                   <a
                     href="https://devpost.com/software/workout-tracking"
@@ -166,11 +160,9 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-sm md:text-xl">
-                This account is for your confidential funds dedicated to
-                achieving financial freedom. Users can create individual
-                accounts, track logs, and utilize a database for efficient data
-                management.
+              <p className="text-sm md:text-lg">
+                Users can create individual accounts, track logs, and utilize a
+                database for efficient data management.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/auth-app"
@@ -200,10 +192,9 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-sm md:text-xl">
-                This recipe site allows users to search for menus based on
-                ingredients. The recipes, sourced from an API, can be easily
-                found using various keywords.
+              <p className="text-sm md:text-lg">
+                Users can search for menus based on ingredients. The recipes,
+                sourced from an API, can be easily found using various keywords.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/food-recipes-app"
@@ -233,10 +224,9 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-sm md:text-xl">
-                This small ecommerce site offers an enjoyable shopping
-                experience. Users can save products, adjust quantities, and
-                remove items from their cart.
+              <p className="text-sm md:text-lg">
+                Users can save products, adjust quantities, and remove items
+                from their cart.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/shopping-cart-typescript"
@@ -266,7 +256,7 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-sm md:text-xl">
+              <p className="text-sm md:text-lg">
                 This is a typing game that generates a Hangman figure with a
                 word for players to guess. Correct selections keep the letters
                 in place.
@@ -299,9 +289,8 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-sm md:text-xl">
-                This is a revamped version of a simple to-do list originally
-                built using HTML, CSS, and JS. The update includes modern
+              <p className="text-sm md:text-lg">
+                This is a simple to-do list. The update includes modern
                 programming languages and an improved database structure.
               </p>
               <a
@@ -332,10 +321,10 @@ const Projects = () => {
                 </a>
                 -2023
               </p>
-              <p className="text-sm md:text-xl">
-                This modern weather app prioritizes user-friendly simplicity
-                with general functionality, avoiding unnecessary complexities
-                for ease of use.
+              <p className="text-sm md:text-lg">
+                This weather app prioritizes user-friendly simplicity with
+                general functionality, avoiding unnecessary complexities for
+                ease of use.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/weather-react-apps"
@@ -365,10 +354,9 @@ const Projects = () => {
                 </a>
                 -2024
               </p>
-              <p className="text-sm md:text-xl">
-                There are already many ideas of birthday cards and barthday
-                invitaitons, but this is a website which has all of materials
-                what you want to send your patner. For more information,{" "}
+              <p className="text-sm md:text-lg">
+                This is a website which has all of materials what you want to
+                send your patner. For more information,{" "}
                 <span>
                   <a
                     href="https://devpost.com/software/hbd-template"

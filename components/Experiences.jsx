@@ -10,7 +10,7 @@ const Experiences = () => {
           EXPERIENCE
         </p>
         <h2 className="py-4">What I&apos;ve Worked</h2>
-        <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8 lg:px-8">
+        <div className="grid grid-cols lg:grid-cols-3 gap-8 lg:mt-8 lg:px-20">
           <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
             <div className="m-auto w-20">
               <Image src={Icon} alt="/" />
