@@ -23,7 +23,7 @@ const About = () => {
               height={600}
             />
           </div>
-          <p className="py-12 sm:px-0 md:px-8 text-gray-600 md:text-2xl sm:text-lg text-center">
+          <p className="mt-8 mb-8 py-18 sm:px-0 md:px-8 text-gray-600 md:text-2xl sm:text-lg text-center">
             In 2021, I started my web development journey through college,
             mastering HTML/CSS, JavaScript, React, and Node. I specialize in
             creating user-friendly full-stack applications, with a focus on

@@ -10,7 +10,7 @@ const Experiences = () => {
           EXPERIENCE
         </p>
         <h2 className="py-4">What I&apos;ve Worked</h2>
-        <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8">
+        <div className="grid grid-cols lg:grid-cols-3 gap-10 lg:mt-8 lg:px-8">
           <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
             <div className="m-auto w-20">
               <Image src={Icon} alt="/" />
@@ -27,7 +27,7 @@ const Experiences = () => {
               Onyx Creative Media
             </a>
             <h3 className="text-sm md:text-md lg:text-xl my-2">
-              March 2024 - Present
+              Mar 2024 - Present
             </h3>
             <h3 className="text-sm md:text-md lg:text-xl mb-1">
               HTML, CSS, JavaScript
@@ -49,7 +49,7 @@ const Experiences = () => {
               GAO RFID
             </a>
             <h3 className="text-sm md:text-md lg:text-xl my-2">
-              November 2023 - February 2024
+              Nov 2023 - Feb 2024
             </h3>
             <h3 className="text-sm md:text-md lg:text-xl mb-1">
               JavaScript, WordPress
@@ -71,7 +71,7 @@ const Experiences = () => {
               Tellext
             </a>
             <h3 className="text-sm md:text-md lg:text-xl my-2">
-              February 2023 - July 2023
+              Feb 2023 - Jul 2023
             </h3>
             <h3 className="text-sm md:text-md lg:text-xl mb-1">
               React, WordPress
@@ -93,7 +93,7 @@ const Experiences = () => {
               One Community Global
             </a>
             <h3 className="text-sm md:text-md lg:text-xl my-2">
-              February 2023 - April 2023
+              Feb 2023 - Apr 2023
             </h3>
             <h3 className="text-sm md:text-md lg:text-xl mb-1">
               HTML, CSS, JavaScript

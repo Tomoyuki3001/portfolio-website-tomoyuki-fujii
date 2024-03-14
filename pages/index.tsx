@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Main />
-      <div className="px-6">
+      <div className="px-6 lg:px-12">
         <About />
         <Experiences />
         <Projects />
