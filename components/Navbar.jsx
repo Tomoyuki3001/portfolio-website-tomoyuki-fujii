@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import TopLogo from "../public/assets/Tomo-logo-PhotoRoom.png-PhotoRoom.png";
+import TopLogoWhite from "../public/assets/Tomo-logo-white.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -10,6 +12,8 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState("");
   const [linkColor, setLinkColor] = useState("#ffffff");
   const [border, setBorder] = useState("");
+  const [logo, setLogo] = useState(TopLogoWhite);
+  const [mobileMenu, setMibileMenu] = useState("#ffffff");
 
   useEffect(() => {
     const handleShadow = () => {
@@ -18,11 +22,15 @@ const Navbar = () => {
         setNavBg("#d5dbde");
         setLinkColor("#22223B");
         setBorder("#22223B");
+        setLogo(TopLogo);
+        setMibileMenu("#527f9f");
       } else {
         setShadow(false);
         setNavBg("transparent");
         setLinkColor("#ffffff");
         setBorder("#ffffff");
+        setLogo(TopLogoWhite);
+        setMibileMenu("#ffffff");
       }
     };
     window.addEventListener("scroll", handleShadow);
@@ -44,7 +52,7 @@ const Navbar = () => {
         <Link href="/">
           <div>
             <Image
-              src="/assets/Tomo-logo-PhotoRoom.png-PhotoRoom.png"
+              src={logo}
               alt="/"
               width="130"
               height="50"
@@ -88,7 +96,7 @@ const Navbar = () => {
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden pr-3">
-            <AiOutlineMenu size={25} color="#527f9f" />
+            <AiOutlineMenu size={25} color={mobileMenu} />
           </div>
         </div>
       </div>
@@ -108,12 +116,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <div>
-                  <Image
-                    src="/assets/Tomo-logo-PhotoRoom.png-PhotoRoom.png"
-                    alt="/"
-                    width="80"
-                    height="35"
-                  />
+                  <Image src={TopLogo} alt="/" width="80" height="35" />
                 </div>
               </Link>
               <div
