@@ -70,8 +70,14 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
-        <div className="flex justify-center w-full">
-          <div className="col-span-3 w-full rounded-xl lg:p-12">
+        <div className="flex justify-around w-full">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.37148313464!2d-123.20630488144621!3d49.2578181906132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1710879539088!5m2!1sen!2sca"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            className="google-map"
+          ></iframe>
+          <div className="col-span-3 w-full lg:w-1/2 rounded-xl lg:pt-4">
             <div className="p-2">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">

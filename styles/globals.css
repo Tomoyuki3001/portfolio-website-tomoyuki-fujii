@@ -88,6 +88,9 @@ html {
 }
 
 @media (max-width: 600px) {
+  .google-map {
+    display: none;
+  }
   .modal {
     position: fixed;
     left: 0;
@@ -198,6 +201,9 @@ html {
 }
 
 @media (min-width: 601px) and (max-width: 1019px) {
+  .google-map {
+    display: none;
+  }
   .modal {
     position: fixed;
     left: 0;
@@ -307,6 +313,12 @@ html {
 }
 
 @media (min-width: 1020px) {
+  .google-map {
+    width: 500px;
+    height: 500px;
+    border: 0;
+    margin-top: 3rem;
+  }
   .modal {
     position: fixed;
     left: 0;
