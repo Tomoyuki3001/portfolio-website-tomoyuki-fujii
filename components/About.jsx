@@ -34,7 +34,7 @@ const About = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    CICCC
+                    Cornerstone International Community College of Canada
                   </a>
                 </span>
                 , mastering HTML/CSS, JavaScript, React, and Node in 2021. From
