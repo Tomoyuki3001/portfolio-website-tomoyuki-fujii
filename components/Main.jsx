@@ -52,8 +52,9 @@ const Main = () => {
           </p>
           <button className="mainBtn">
             <a
-              href="/assets/Tomoyuki Fujii_CV.pdf"
-              download="Tomoyuki Fujii_CV.pdf"
+              href="https://drive.google.com/file/d/1M52MLKzC94NU0fWL9NrxHHP0U4pc76AG/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               RESUME
             </a>
