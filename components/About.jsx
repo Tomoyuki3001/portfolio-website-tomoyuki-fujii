@@ -25,7 +25,7 @@ const About = () => {
               />
             </div>
             <div className="lg:w-1/2">
-              <p className="py-18 sm:px-0 md:px-16 mb-8 text-gray-600 lg:text-2xl sm:text-lg text-center">
+              <p className="py-18 sm:px-0 md:px-16 mb-8 text-gray-600 lg:text-xl sm:text-lg text-center">
                 I started my web development journey through{" "}
                 <span>
                   <a
@@ -37,7 +37,7 @@ const About = () => {
                     Cornerstone International Community College of Canada
                   </a>
                 </span>
-                , mastering HTML/CSS, JavaScript, React, and Node in 2021. From
+                , mastering HTML/CSS, JavaScript, React, and Node in 2022. From
                 my internship, I have worked on and learned React, TypeScript,
                 and WordPress to specialize in creating user and mobile friendly
                 full-stack applications with Firebase and MongoDB. <br />

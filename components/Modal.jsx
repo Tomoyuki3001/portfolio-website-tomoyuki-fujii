@@ -28,7 +28,7 @@ const Modal = (props) => {
                     <p className="favorite_p">
                       One of my favorite sports. I have played tennis for more
                       than 10 years. I also like watching the games. My favorite
-                      player is Nadal.
+                      player is Denis Shapovalov.
                     </p>
                   </div>
                 </figcaption>
