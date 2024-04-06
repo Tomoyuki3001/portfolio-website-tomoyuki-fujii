@@ -309,8 +309,8 @@ const Projects = () => {
                 -2023
               </p>
               <p className="text-sm md:text-lg">
-                The update includes modern programming languages and an improved
-                database structure.
+                Using modern programming languages and an improved database
+                structure.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/to-do-list"
