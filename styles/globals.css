@@ -79,7 +79,6 @@ html {
   background-color: transparent;
   border: 1px solid #fff;
   cursor: pointer;
-  border-radius: 0.375rem;
 }
 
 .mainBtn:hover {

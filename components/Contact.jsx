@@ -65,7 +65,7 @@ const Contact = () => {
   };
   return (
     <div id="contact" className="w-full md:mb-16">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
+      <div className="max-w-[1440px] m-auto px-2 py-16 w-full lg:px-32">
         <p className="text-xl tracking-widest text-gray-500">CONTACT</p>
         <h2 className="py-4">Get In Touch</h2>
         <div className="flex justify-around w-full">
@@ -75,7 +75,7 @@ const Contact = () => {
             referrerpolicy="no-referrer-when-downgrade"
             className="google-map"
           ></iframe>
-          <div className="col-span-3 w-full lg:w-1/2 rounded-xl lg:pt-4">
+          <div className="col-span-3 w-full lg:w-1/2 lg:pt-4">
             <div className="p-2">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">

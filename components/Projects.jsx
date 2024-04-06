@@ -1,25 +1,28 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Money from "../public/assets/money.svg";
-import Search from "../public/assets/search.svg";
-import Shopping from "../public/assets/shopping.svg";
-import Mobile from "../public/assets/mobile.svg";
-import Document from "../public/assets/document.svg";
-import Gift from "../public/assets/gift.svg";
-import Fitness from "../public/assets/dumbbell.svg";
+import Money from "../public/assets/bank.png";
+import Shopping from "../public/assets/shop.png";
+import Chat from "../public/assets/chat.png";
+import Health from "../public/assets/health.png";
+import Gift from "../public/assets/gift.png";
+import Fitness from "../public/assets/workout.png";
+import Cook from "../public/assets/cook.png";
+import Game from "../public/assets/game.png";
+import Memo from "../public/assets/memo.png";
+import Weather from "../public/assets/weather.png";
 
 const Projects = () => {
   const [font, setFont] = useState("#339AF0");
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto py-16">
+      <div className="max-w-[1440px] mx-auto py-16 lg:px-32">
         <p className="text-xl tracking-widest text-gray-500">PROJECTS</p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="mx-auto flex flex-col justify-center h-4/5">
           <div className="grid grid-cols lg:grid-cols-3 gap-8 lg:mt-8 lg:px-20">
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Mobile} alt="/" />
+                <Image className="w-14 m-auto" src={Chat} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl my-3">Chat App</h2>
               <p className="text-xl">
@@ -64,7 +67,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Document} alt="/" />
+                <Image className="w-14 m-auto" src={Health} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl my-3">Health Management</h2>
               <p className="text-xl">
@@ -109,7 +112,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Fitness} alt="/" />
+                <Image className="w-14 m-auto" src={Fitness} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl my-3">Workout Tracking</h2>
               <p className="text-xl">
@@ -154,7 +157,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Money} alt="/" />
+                <Image className="w-14 m-auto" src={Money} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl my-3">Secret Account</h2>
               <p className="text-xl">
@@ -188,7 +191,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Search} alt="/" />
+                <Image className="w-14 m-auto" src={Cook} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl my-3">TM Recipes</h2>
               <p className="text-xl">
@@ -222,7 +225,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Shopping} alt="/" />
+                <Image className="w-14 m-auto" src={Shopping} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl my-3">Small Ecommerce</h2>
               <p className="text-xl">
@@ -256,7 +259,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Mobile} alt="/" />
+                <Image className="w-14 m-auto" src={Game} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl mb-3">Hangman</h2>
               <p className="text-xl">
@@ -291,7 +294,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Document} alt="/" />
+                <Image className="w-14 m-auto" src={Memo} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl mb-3">MY MEMO</h2>
               <p className="text-xl">
@@ -325,7 +328,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Search} alt="/" />
+                <Image className="w-14 m-auto" src={Weather} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl mb-3">Weather App</h2>
               <p className="text-xl">
@@ -358,7 +361,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-16 m-auto" src={Gift} alt="/" />
+                <Image className="w-14 m-auto" src={Gift} alt="/" />
               </div>
               <h2 className="text-xl md:text-2xl mb-3">
                 Birthday Celeblations

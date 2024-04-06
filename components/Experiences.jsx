@@ -6,7 +6,7 @@ const Experiences = () => {
   const [font, setFont] = useState("#339AF0");
   return (
     <div id="experiences" className="w-full lg:mb-32">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-4/5">
+      <div className="max-w-[1440px] mx-auto flex flex-col justify-center h-4/5 lg:px-32">
         <p className="text-xl tracking-widest text-gray-500">EXPERIENCE</p>
         <h2 className="py-4">What I&apos;ve Worked</h2>
         <div className="grid grid-cols lg:grid-cols-3 gap-8 lg:mt-8 lg:px-20">

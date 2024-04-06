@@ -8,7 +8,7 @@ const About = () => {
   const [show, setShow] = useState(false);
   return (
     <div id="about" className="w-full h-full flex items-center py-6 lg:my-16">
-      <div className="max-w-[1240px] m-auto">
+      <div className="max-w-[1440px] m-auto lg:px-32">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-gray-500">
             About
