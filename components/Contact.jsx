@@ -64,11 +64,9 @@ const Contact = () => {
     alert("Email has bees sent!");
   };
   return (
-    <div id="contact" className="w-full md:mb-4">
+    <div id="contact" className="w-full md:mb-16">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <p className="text-xl tracking-widest uppercase text-[#527f9f]">
-          Contact
-        </p>
+        <p className="text-xl tracking-widest text-gray-500">CONTACT</p>
         <h2 className="py-4">Get In Touch</h2>
         <div className="flex justify-around w-full">
           <iframe
@@ -87,7 +85,7 @@ const Contact = () => {
                     </label>
                     <input
                       type="text"
-                      className="border-2 rounded-lg p-3 flex border-blue-300"
+                      className="border-2 p-3 flex border-gray-400"
                       name="user_name"
                       value={name}
                       onChange={handleChangeName}
@@ -100,7 +98,7 @@ const Contact = () => {
                     </label>
                     <input
                       type="email"
-                      className="border-2 rounded-lg p-3 flex border-blue-300"
+                      className="border-2 p-3 flex border-gray-400"
                       name="user_email"
                       value={email}
                       onChange={handleChangeEmail}
@@ -114,7 +112,7 @@ const Contact = () => {
                   </label>
                   <input
                     type="text"
-                    className="border-2 rounded-lg p-3 flex border-blue-300"
+                    className="border-2 p-3 flex border-gray-400"
                     name="user_subject"
                     value={subject}
                     onChange={handleChangeSubject}
@@ -126,7 +124,7 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-blue-300"
+                    className="border-2 p-3 flex border-gray-400"
                     rows={10}
                     value={text}
                     onChange={handleChangeText}
@@ -135,20 +133,13 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <div className="flex justify-center">
-                  <button className="w-3/4 p-4 text-gray-100 mt-12 text-xl shadow-xl shadow-gray-400 btn">
+                  <button className="w-3/4 p-4 text-gray-100 mt-12 text-xl btn">
                     Send Message
                   </button>
                 </div>
               </form>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center py-12">
-          <Link href="/">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#527f9f]" size={30} />
-            </div>
-          </Link>
         </div>
       </div>
     </div>

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import TopLogo from "../public/assets/Tomo-logo-PhotoRoom.png-PhotoRoom.png";
 import TopLogoWhite from "../public/assets/Tomo-logo-white.png";
 
 const Navbar = () => {
@@ -11,7 +10,6 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("");
   const [linkColor, setLinkColor] = useState("#ffffff");
-  const [border, setBorder] = useState("");
   const [logo, setLogo] = useState(TopLogoWhite);
   const [mobileMenu, setMibileMenu] = useState("#ffffff");
 
@@ -19,16 +17,14 @@ const Navbar = () => {
     const handleShadow = () => {
       if (window.scrollY >= 20) {
         setShadow(true);
-        setNavBg("#d5dbde");
-        setLinkColor("#22223B");
-        setBorder("#22223B");
-        setLogo(TopLogo);
-        setMibileMenu("#527f9f");
+        setNavBg("#2d363a");
+        setLinkColor("#ffffff");
+        setLogo(TopLogoWhite);
+        setMibileMenu("ffffff");
       } else {
         setShadow(false);
         setNavBg("transparent");
         setLinkColor("#ffffff");
-        setBorder("#ffffff");
         setLogo(TopLogoWhite);
         setMibileMenu("#ffffff");
       }
@@ -44,7 +40,7 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-16 shadow-xl z-[100] ease-in-out duration-300"
+          ? "fixed w-full h-16 z-[100] ease-in-out duration-300"
           : "fixed w-full h-16 z-[100]"
       }
     >
@@ -63,36 +59,16 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
             <Link href="/#about">
-              <li
-                style={{ borderColor: `${border}` }}
-                className={`ml-10 text-md uppercase hover:border-b`}
-              >
-                About
-              </li>
+              <li className={`ml-10 text-md uppercase`}>About</li>
             </Link>
             <Link href="/#experiences">
-              <li
-                style={{ borderColor: `${border}` }}
-                className={`ml-10 text-md uppercase hover:border-b`}
-              >
-                Experience
-              </li>
+              <li className={`ml-10 text-md uppercase`}>Experience</li>
             </Link>
             <Link href="/#projects">
-              <li
-                style={{ borderColor: `${border}` }}
-                className={`ml-10 text-md uppercase hover:border-b`}
-              >
-                Projects
-              </li>
+              <li className={`ml-10 text-md uppercase`}>Projects</li>
             </Link>
             <Link href="/#contact">
-              <li
-                style={{ borderColor: `${border}` }}
-                className={`ml-10 text-md uppercase hover:border-b`}
-              >
-                Contact
-              </li>
+              <li className={`ml-10 text-md uppercase`}>Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden pr-3">
@@ -108,28 +84,21 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in decoration-500"
-              : "fixed left-[-100%] top-0 p-10 ease-in decoration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-[#ecf0f3] p-8 ease-in decoration-500"
+              : "fixed left-[-100%] top-0 p-8 ease-in decoration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
-                <div>
-                  <Image src={TopLogo} alt="/" width="80" height="35" />
-                </div>
-              </Link>
+              <div className="border-b border-gray-300 my-4">
+                <p className="py-4">Let&apos;s build something together</p>
+              </div>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
-            </div>
-            <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
-                Let&apos;s build something legendary together
-              </p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
@@ -156,10 +125,10 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-10">
-              <p className="uppercase tracking-widest text-[#527f9f]">
+              <p className="uppercase tracking-widest text-gray-400">
                 Let&apos;s Connect
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-around my-4 w-full sm:w-[80%]">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

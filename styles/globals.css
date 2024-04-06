@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-[#ffffff] to-[#f1f3f4] text-[#272829] tracking-wide;
+    @apply bg-[#ffffff] text-[#1C1F23] tracking-wide;
   }
 
   h1,
@@ -34,17 +34,17 @@ html {
 }
 
 .btn {
-  border-radius: 0.375rem;
   text-transform: uppercase;
-  background: #527f9f;
+  background: #2d363a;
   color: #ffffff;
   padding: 0.75rem 1.5rem;
-  border: none;
+  border: solid 1px #2d363a;
   cursor: pointer;
 }
 .btn:hover {
-  color: #527f9f;
+  color: #2d363a;
   background-color: #ffffff;
+  border: solid 1px #2d363a;
 }
 
 .waviy {
@@ -83,7 +83,7 @@ html {
 }
 
 .mainBtn:hover {
-  color: #527f9f;
+  color: #2d363a;
   background-color: #ffffff;
 }
 
@@ -113,8 +113,7 @@ html {
 
   .modal-content {
     width: 30rem;
-    background-color: rgb(213, 219, 222);
-    /* background-color: rgba(245, 245, 245, 0.8); */
+    background-color: #ffffff;
     transition: all 0.4s ease-in-out;
     transform: translateY(-200px);
     text-align: center;
@@ -189,14 +188,14 @@ html {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    background-color: #e5e8ed;
-    color: #527f9f;
-    border: 2px solid #527f9f;
+    background-color: #ffffff;
+    color: #2d363a;
+    border: 1px solid #2d363a;
   }
   .modal-button:hover {
     color: #ffffff;
-    background-color: #527f9f;
-    border: 2px solid #ffffff;
+    background-color: #2d363a;
+    border: 1px solid #ffffff;
   }
 }
 
@@ -227,7 +226,7 @@ html {
   .modal-content {
     width: 40rem;
     height: 42rem;
-    background-color: rgb(213, 219, 222);
+    background-color: #ffffff;
     transition: all 0.4s ease-in-out;
     transform: translateY(-200px);
     text-align: center;
@@ -301,14 +300,14 @@ html {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    background-color: #e5e8ed;
-    color: #527f9f;
-    border: 2px solid #527f9f;
+    background-color: #ffffff;
+    color: #2d363a;
+    border: 1px solid #2d363a;
   }
   .modal-button:hover {
     color: #ffffff;
-    background-color: #527f9f;
-    border: 2px solid #ffffff;
+    background-color: #2d363a;
+    border: 1px solid #ffffff;
   }
 }
 
@@ -347,7 +346,7 @@ html {
   .modal-content {
     width: 80rem;
     height: 37rem;
-    background-color: rgb(213, 219, 222);
+    background-color: #ffffff;
     transition: all 0.4s ease-in-out;
     transform: translateY(-200px);
     text-align: center;
@@ -453,13 +452,13 @@ html {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    background-color: #e5e8ed;
-    color: #527f9f;
-    border: 2px solid #527f9f;
+    background-color: #ffffff;
+    color: #2d363a;
+    border: 1px solid #2d363a;
   }
   .modal-button:hover {
     color: #ffffff;
-    background-color: #527f9f;
-    border: 2px solid #ffffff;
+    background-color: #2d363a;
+    border: 1px solid #ffffff;
   }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Money from "../public/assets/money.svg";
 import Search from "../public/assets/search.svg";
@@ -9,16 +9,15 @@ import Gift from "../public/assets/gift.svg";
 import Fitness from "../public/assets/dumbbell.svg";
 
 const Projects = () => {
+  const [font, setFont] = useState("#339AF0");
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto py-16">
-        <p className="text-xl tracking-widest uppercase text-[#527f9f]">
-          Projects
-        </p>
+        <p className="text-xl tracking-widest text-gray-500">PROJECTS</p>
         <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-4/5">
+        <div className="mx-auto flex flex-col justify-center h-4/5">
           <div className="grid grid-cols lg:grid-cols-3 gap-8 lg:mt-8 lg:px-20">
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Mobile} alt="/" />
               </div>
@@ -28,7 +27,8 @@ const Projects = () => {
                   href="https://mern-chat-app-lilac.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -42,7 +42,8 @@ const Projects = () => {
                     href="https://devpost.com/software/mern-chat-app"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-xl text-blue-600"
+                    className="text-xl"
+                    style={{ color: `${font}` }}
                   >
                     DevPost
                   </a>
@@ -52,15 +53,16 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/mern-chat"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">
+              <p className="font-bold text-sm md:text-lg mb-1">
                 Next.js, Prisma, MongoDB
               </p>
             </div>
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Document} alt="/" />
               </div>
@@ -70,7 +72,8 @@ const Projects = () => {
                   href="https://mern-health-front.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -84,7 +87,8 @@ const Projects = () => {
                     href="https://devpost.com/software/mern-health-management-app"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-xl text-blue-600"
+                    className="text-xl"
+                    style={{ color: `${font}` }}
                   >
                     DevPost
                   </a>
@@ -94,15 +98,16 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/mern-health"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">
+              <p className="font-bold text-sm md:text-lg mb-1">
                 React, Node, Express, MongoDB
               </p>
             </div>
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Fitness} alt="/" />
               </div>
@@ -112,7 +117,8 @@ const Projects = () => {
                   href="https://workout-record.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -126,7 +132,8 @@ const Projects = () => {
                     href="https://devpost.com/software/workout-tracking"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-xl text-blue-600"
+                    className="text-xl"
+                    style={{ color: `${font}` }}
                   >
                     DevPost
                   </a>
@@ -136,15 +143,16 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/workout-record"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">
+              <p className="font-bold text-sm md:text-lg mb-1">
                 React, Node, Express, MongoDB
               </p>
             </div>
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Money} alt="/" />
               </div>
@@ -154,7 +162,8 @@ const Projects = () => {
                   href="https://auth-app-topaz-nine.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -168,15 +177,16 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/auth-app"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">
+              <p className="font-bold text-sm md:text-lg mb-1">
                 React, Firebase
               </p>
             </div>
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Search} alt="/" />
               </div>
@@ -186,7 +196,8 @@ const Projects = () => {
                   href="https://food-recipes-tomo.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -200,15 +211,16 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/food-recipes-app"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">
+              <p className="font-bold text-sm md:text-lg mb-1">
                 React, Recipe API
               </p>
             </div>
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Shopping} alt="/" />
               </div>
@@ -218,7 +230,8 @@ const Projects = () => {
                   href="https://shopping-cart-typescript-ashen.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -232,15 +245,16 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/shopping-cart-typescript"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">
+              <p className="font-bold text-sm md:text-lg mb-1">
                 TypeScript, JSON
               </p>
             </div>
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Mobile} alt="/" />
               </div>
@@ -250,7 +264,8 @@ const Projects = () => {
                   href="https://typescript-practice-1.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -265,15 +280,16 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/typescript-practice-1"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">
+              <p className="font-bold text-sm md:text-lg mb-1">
                 TypeScript, Node.js
               </p>
             </div>
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Document} alt="/" />
               </div>
@@ -283,7 +299,8 @@ const Projects = () => {
                   href="https://tomoyuki3001.github.io/to-do-list/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -297,15 +314,16 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/to-do-list"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">
+              <p className="font-bold text-sm md:text-lg mb-1">
                 React, Firebase
               </p>
             </div>
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Search} alt="/" />
               </div>
@@ -315,7 +333,8 @@ const Projects = () => {
                   href="https://tomoyuki3001.github.io/weather-react-apps/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -330,13 +349,14 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/weather-react-apps"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">React, API</p>
+              <p className="font-bold text-sm md:text-lg mb-1">React, API</p>
             </div>
-            <div className="p-6 shadow-xl rounded-xl border-solid border-2 border-blue-300 text-center">
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
                 <Image className="w-16 m-auto" src={Gift} alt="/" />
               </div>
@@ -348,7 +368,8 @@ const Projects = () => {
                   href="https://hbd-template.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-xl text-blue-600"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
                 >
                   View Demo
                 </a>
@@ -362,7 +383,8 @@ const Projects = () => {
                     href="https://devpost.com/software/hbd-template"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-xl text-blue-600"
+                    className="text-xl"
+                    style={{ color: `${font}` }}
                   >
                     DevPost
                   </a>
@@ -372,11 +394,12 @@ const Projects = () => {
                 href="https://github.com/Tomoyuki3001/hbd-template"
                 target="_blank"
                 rel="noreferrer"
-                className="text-xl text-blue-600"
+                className="text-xl"
+                style={{ color: `${font}` }}
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-xl mb-1">React, CSS</p>
+              <p className="font-bold text-sm md:text-lg mb-1">React, CSS</p>
             </div>
           </div>
         </div>

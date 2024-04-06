@@ -10,7 +10,7 @@ const About = () => {
     <div id="about" className="w-full h-full flex items-center py-6 lg:my-16">
       <div className="max-w-[1240px] m-auto">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#527f9f]">
+          <p className="uppercase text-xl tracking-widest text-gray-500">
             About
           </p>
           <h2 className="pt-4 pb-12">Who I Am</h2>
@@ -18,18 +18,18 @@ const About = () => {
             <div className="lg:w-1/2 lg:flex lg:flex-col lg:items-center">
               <Image
                 src={Profile}
-                className="rounded-lg mb-8"
+                className="rounded-sm mb-8"
                 alt="Profile Image"
                 width={400}
                 height={600}
               />
             </div>
             <div className="lg:w-1/2">
-              <p className="py-18 sm:px-0 md:px-16 mb-8 text-gray-600 lg:text-xl sm:text-lg text-center">
+              <p className="py-18 sm:px-0 md:px-16 mb-8 lg:text-xl sm:text-lg text-center">
                 I started my web development journey through{" "}
                 <span>
                   <a
-                    className="text-blue-600"
+                    className="text-[#339AF0]"
                     href="https://ciccc.ca/"
                     target="_blank"
                     rel="noreferrer"
@@ -76,7 +76,7 @@ const About = () => {
                   </div>
                   <button
                     onClick={() => setShow(true)}
-                    className="btn main_about_third_button w-30 p-4 text-gray-100 mt-8 mb-8 text-lg shadow-xl shadow-gray-400"
+                    className="btn main_about_third_button w-30 p-4 text-gray-100 mt-8 mb-8 text-lg"
                   >
                     Show my photos
                   </button>

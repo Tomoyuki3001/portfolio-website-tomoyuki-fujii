@@ -6,7 +6,7 @@ const Main = () => {
       id="home"
       className="w-full h-screen flex justify-center items-center bg-cover relative"
       style={{
-        backgroundImage: `url(/assets/sea.jpg)`,
+        backgroundImage: `url(/assets/mountain.jpg)`,
       }}
     >
       <div
