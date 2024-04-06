@@ -9,8 +9,6 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("");
-  const [linkColor, setLinkColor] = useState("#ffffff");
-  const [logo, setLogo] = useState(TopLogoWhite);
   const [mobileMenu, setMibileMenu] = useState("#ffffff");
 
   useEffect(() => {
@@ -18,14 +16,10 @@ const Navbar = () => {
       if (window.scrollY >= 20) {
         setShadow(true);
         setNavBg("#2d363a");
-        setLinkColor("#ffffff");
-        setLogo(TopLogoWhite);
         setMibileMenu("ffffff");
       } else {
         setShadow(false);
         setNavBg("transparent");
-        setLinkColor("#ffffff");
-        setLogo(TopLogoWhite);
         setMibileMenu("#ffffff");
       }
     };
@@ -48,7 +42,7 @@ const Navbar = () => {
         <Link href="/">
           <div>
             <Image
-              src={logo}
+              src={TopLogoWhite}
               alt="/"
               width="130"
               height="50"
@@ -57,18 +51,18 @@ const Navbar = () => {
           </div>
         </Link>
         <div>
-          <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
+          <ul className="hidden md:flex text-white">
             <Link href="/#about">
-              <li className={`ml-10 text-md uppercase`}>About</li>
+              <li className="ml-10 text-md uppercase">About</li>
             </Link>
             <Link href="/#experiences">
-              <li className={`ml-10 text-md uppercase`}>Experience</li>
+              <li className="ml-10 text-md uppercase">Experience</li>
             </Link>
             <Link href="/#projects">
-              <li className={`ml-10 text-md uppercase`}>Projects</li>
+              <li className="ml-10 text-md uppercase">Projects</li>
             </Link>
             <Link href="/#contact">
-              <li className={`ml-10 text-md uppercase`}>Contact</li>
+              <li className="ml-10 text-md uppercase">Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden pr-3">
