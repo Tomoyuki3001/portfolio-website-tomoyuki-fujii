@@ -24,7 +24,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Chat} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl my-3">Chat App</h2>
+              <h2 className="text-xl my-3">Chat App</h2>
               <p className="text-xl">
                 <a
                   href="https://mern-chat-app-lilac.vercel.app/"
@@ -69,7 +69,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Health} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl my-3">Health Management</h2>
+              <h2 className="text-xl my-3">Health Management</h2>
               <p className="text-xl">
                 <a
                   href="https://mern-health-front.vercel.app/"
@@ -84,7 +84,7 @@ const Projects = () => {
               </p>
               <p className="text-sm md:text-lg">
                 Users can create new doctor appointments, manage account
-                statuses, and generate notifications for users.
+                statuses.
                 <span>
                   <a
                     href="https://devpost.com/software/mern-health-management-app"
@@ -114,7 +114,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Fitness} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl my-3">Workout Tracking</h2>
+              <h2 className="text-xl my-3">Workout Tracking</h2>
               <p className="text-xl">
                 <a
                   href="https://workout-record.vercel.app/"
@@ -128,8 +128,8 @@ const Projects = () => {
                 -2024
               </p>
               <p className="text-sm md:text-lg">
-                Users can record the weight training and cardio training, edit
-                each log, delete unnecessary logs, and update their profile.
+                Users can record the training, edit each log, and update their
+                profile.
                 <span>
                   <a
                     href="https://devpost.com/software/workout-tracking"
@@ -159,7 +159,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Money} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl my-3">Secret Account</h2>
+              <h2 className="text-xl my-3">Secret Account</h2>
               <p className="text-xl">
                 <a
                   href="https://auth-app-topaz-nine.vercel.app/"
@@ -173,8 +173,8 @@ const Projects = () => {
                 -2023
               </p>
               <p className="text-sm md:text-lg">
-                Users can create individual accounts, track logs, and utilize a
-                database for efficient data management.
+                Users can create track logs, and utilize a database for data
+                management.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/auth-app"
@@ -193,7 +193,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Cook} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl my-3">TM Recipes</h2>
+              <h2 className="text-xl my-3">TM Recipes</h2>
               <p className="text-xl">
                 <a
                   href="https://food-recipes-tomo.netlify.app/"
@@ -207,8 +207,8 @@ const Projects = () => {
                 -2023
               </p>
               <p className="text-sm md:text-lg">
-                Users can search for menus based on ingredients. The recipes,
-                sourced from an API, can be easily found using various keywords.
+                The recipes, sourced from an API, can be easily found using
+                various keywords.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/food-recipes-app"
@@ -227,7 +227,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Shopping} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl my-3">Small Ecommerce</h2>
+              <h2 className="text-xl my-3">Small Ecommerce</h2>
               <p className="text-xl">
                 <a
                   href="https://shopping-cart-typescript-ashen.vercel.app/"
@@ -261,7 +261,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Game} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl mb-3">Hangman</h2>
+              <h2 className="text-xl mb-3">Hangman</h2>
               <p className="text-xl">
                 <a
                   href="https://typescript-practice-1.vercel.app/"
@@ -275,9 +275,8 @@ const Projects = () => {
                 -2023
               </p>
               <p className="text-sm md:text-lg">
-                This is a typing game that generates a Hangman figure with a
-                word for players to guess. Correct selections keep the letters
-                in place.
+                Typing game that generates a Hangman figure with a word for
+                players to guess.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/typescript-practice-1"
@@ -296,7 +295,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Memo} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl mb-3">MY MEMO</h2>
+              <h2 className="text-xl mb-3">MY MEMO</h2>
               <p className="text-xl">
                 <a
                   href="https://tomoyuki3001.github.io/to-do-list/"
@@ -310,8 +309,8 @@ const Projects = () => {
                 -2023
               </p>
               <p className="text-sm md:text-lg">
-                This is a simple to-do list. The update includes modern
-                programming languages and an improved database structure.
+                The update includes modern programming languages and an improved
+                database structure.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/to-do-list"
@@ -330,7 +329,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Weather} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl mb-3">Weather App</h2>
+              <h2 className="text-xl mb-3">Weather App</h2>
               <p className="text-xl">
                 <a
                   href="https://tomoyuki3001.github.io/weather-react-apps/"
@@ -344,9 +343,8 @@ const Projects = () => {
                 -2023
               </p>
               <p className="text-sm md:text-lg">
-                This weather app prioritizes user-friendly simplicity with
-                general functionality, avoiding unnecessary complexities for
-                ease of use.
+                User-friendly simplicity and avoiding unnecessary complexities
+                for ease of use.
               </p>
               <a
                 href="https://github.com/Tomoyuki3001/weather-react-apps"
@@ -363,9 +361,7 @@ const Projects = () => {
               <div className="m-auto">
                 <Image className="w-14 m-auto" src={Gift} alt="/" />
               </div>
-              <h2 className="text-xl md:text-2xl mb-3">
-                Birthday Celeblations
-              </h2>
+              <h2 className="text-xl mb-3">Birthday Celeblations</h2>
               <p className="text-xl">
                 <a
                   href="https://hbd-template.vercel.app/"
@@ -380,7 +376,7 @@ const Projects = () => {
               </p>
               <p className="text-sm md:text-lg">
                 This is a website which has all of materials what you want to
-                send your patner. For more information,{" "}
+                send your patner.{" "}
                 <span>
                   <a
                     href="https://devpost.com/software/hbd-template"
