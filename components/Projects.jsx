@@ -22,7 +22,7 @@ const Projects = () => {
           <div className="grid grid-cols lg:grid-cols-3 gap-8 lg:mt-8 lg:px-20">
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Chat} alt="/" />
+                <Image className="w-13 m-auto" src={Chat} alt="/" />
               </div>
               <h2 className="text-xl my-3">Chat App</h2>
               <p className="text-xl">
@@ -67,7 +67,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Health} alt="/" />
+                <Image className="w-13 m-auto" src={Health} alt="/" />
               </div>
               <h2 className="text-xl my-3">Health Management</h2>
               <p className="text-xl">
@@ -112,7 +112,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Fitness} alt="/" />
+                <Image className="w-13 m-auto" src={Fitness} alt="/" />
               </div>
               <h2 className="text-xl my-3">Workout Tracking</h2>
               <p className="text-xl">
@@ -157,7 +157,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Money} alt="/" />
+                <Image className="w-13 m-auto" src={Money} alt="/" />
               </div>
               <h2 className="text-xl my-3">Secret Account</h2>
               <p className="text-xl">
@@ -191,7 +191,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Cook} alt="/" />
+                <Image className="w-13 m-auto" src={Cook} alt="/" />
               </div>
               <h2 className="text-xl my-3">TM Recipes</h2>
               <p className="text-xl">
@@ -225,7 +225,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Shopping} alt="/" />
+                <Image className="w-13 m-auto" src={Shopping} alt="/" />
               </div>
               <h2 className="text-xl my-3">Small Ecommerce</h2>
               <p className="text-xl">
@@ -259,7 +259,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Game} alt="/" />
+                <Image className="w-13 m-auto" src={Game} alt="/" />
               </div>
               <h2 className="text-xl mb-3">Hangman</h2>
               <p className="text-xl">
@@ -293,7 +293,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Memo} alt="/" />
+                <Image className="w-13 m-auto" src={Memo} alt="/" />
               </div>
               <h2 className="text-xl mb-3">MY MEMO</h2>
               <p className="text-xl">
@@ -327,7 +327,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Weather} alt="/" />
+                <Image className="w-13 m-auto" src={Weather} alt="/" />
               </div>
               <h2 className="text-xl mb-3">Weather App</h2>
               <p className="text-xl">
@@ -359,7 +359,7 @@ const Projects = () => {
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
-                <Image className="w-14 m-auto" src={Gift} alt="/" />
+                <Image className="w-13 m-auto" src={Gift} alt="/" />
               </div>
               <h2 className="text-xl mb-3">Birthday Celeblations</h2>
               <p className="text-xl">
