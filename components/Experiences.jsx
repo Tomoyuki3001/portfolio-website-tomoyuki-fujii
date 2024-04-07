@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import Icon from "../public/assets/experience.png";
+import Sales from "../public/assets/sales.png";
 
 const Experiences = () => {
   const [font, setFont] = useState("#339AF0");
@@ -84,7 +85,7 @@ const Experiences = () => {
           </div>
           <div className="p-6 border-solid border-2 border-gray-400 text-center">
             <div className="m-auto w-20 flex flex-col items-center">
-              <Image src={Icon} alt="/" />
+              <Image src={Sales} alt="/" />
             </div>
             <h2 className="text-lg mb-3">Sales and Marketing Representative</h2>
             <a

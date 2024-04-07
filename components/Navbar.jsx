@@ -53,16 +53,16 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex text-white">
             <Link href="/#about">
-              <li className="ml-10 text-md uppercase">About</li>
+              <li className="ml-10 uppercase nav-link">About</li>
             </Link>
             <Link href="/#experiences">
-              <li className="ml-10 text-md uppercase">Experience</li>
+              <li className="ml-10 uppercase nav-link">Experience</li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-md uppercase">Projects</li>
+              <li className="ml-10 uppercase nav-link">Projects</li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-md uppercase">Contact</li>
+              <li className="ml-10 uppercase nav-link">Contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden pr-3">
