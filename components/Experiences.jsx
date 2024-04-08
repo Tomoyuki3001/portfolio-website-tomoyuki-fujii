@@ -27,7 +27,7 @@ const Experiences = () => {
             </a>
             <h3 className="sm:text-sm lg:text-md my-2">Mar 2024 - Present</h3>
             <h3 className="sm:text-sm lg:text-md mb-1">
-              HTML, CSS, JavaScript
+              HTML/CSS, JavaScript, GoDaddy
             </h3>
           </div>
           <div className="p-6 border-solid border-2 border-gray-400 text-center">
@@ -81,7 +81,7 @@ const Experiences = () => {
               One Community Global
             </a>
             <h3 className="text-sm lg:text-md my-2">Feb 2023 - Apr 2023</h3>
-            <h3 className="text-sm lg:text-md mb-1">HTML, CSS, JavaScript</h3>
+            <h3 className="text-sm lg:text-md mb-1">HTML/CSS, JavaScript</h3>
           </div>
           <div className="p-6 border-solid border-2 border-gray-400 text-center">
             <div className="m-auto w-20 flex flex-col items-center">
