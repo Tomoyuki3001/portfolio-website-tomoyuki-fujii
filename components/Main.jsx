@@ -52,7 +52,7 @@ const Main = () => {
           </p>
           <button className="mainBtn">
             <a
-              href="https://drive.google.com/file/d/1M52MLKzC94NU0fWL9NrxHHP0U4pc76AG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1WPhK0XO1r5hqr7XrPmwZC1FLmIAuy6Mp/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
