@@ -61,7 +61,7 @@ const Contact = () => {
     setEmail("");
     setSubject("");
     setText("");
-    alert("Email has bees sent!");
+    alert("Email has been sent!");
   };
   return (
     <div id="contact" className="w-full md:mb-16">
