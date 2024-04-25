@@ -1,6 +1,4 @@
 import React, { useRef, useState } from "react";
-import Link from "next/link";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
