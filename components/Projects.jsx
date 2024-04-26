@@ -41,7 +41,7 @@ const Projects = () => {
               </p>
               <p className="text-sm md:text-lg">
                 Users can create an account, send messages, and create a chat
-                group. For more information,{" "}
+                group.{" "}
                 <span>
                   <a
                     href="https://devpost.com/software/mern-chat-app"
