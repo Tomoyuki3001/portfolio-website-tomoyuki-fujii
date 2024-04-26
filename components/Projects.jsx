@@ -62,7 +62,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">
+              <p className="font-bold text-sm md:text-md mb-1">
                 Next.js, Prisma, MongoDB
               </p>
             </div>
@@ -107,7 +107,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">
+              <p className="font-bold text-sm md:text-md mb-1">
                 React, Node, Express, MongoDB
               </p>
             </div>
@@ -152,7 +152,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">
+              <p className="font-bold text-sm md:text-md mb-1">
                 React, Node, Express, MongoDB
               </p>
             </div>
@@ -186,7 +186,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">
+              <p className="font-bold text-sm md:text-md mb-1">
                 React, Firebase
               </p>
             </div>
@@ -220,7 +220,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">
+              <p className="font-bold text-sm md:text-md mb-1">
                 React, Recipe API
               </p>
             </div>
@@ -254,7 +254,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">
+              <p className="font-bold text-sm md:text-md mb-1">
                 TypeScript, JSON
               </p>
             </div>
@@ -288,7 +288,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">
+              <p className="font-bold text-sm md:text-md mb-1">
                 TypeScript, Node.js
               </p>
             </div>
@@ -322,7 +322,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">
+              <p className="font-bold text-sm md:text-md mb-1">
                 React, Firebase
               </p>
             </div>
@@ -356,7 +356,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">React, API</p>
+              <p className="font-bold text-sm md:text-md mb-1">React, API</p>
             </div>
             <div className="p-6 border-solid border-2 border-gray-400 text-center">
               <div className="m-auto">
@@ -399,64 +399,7 @@ const Projects = () => {
               >
                 View Code
               </a>
-              <p className="font-bold text-sm md:text-lg mb-1">React, CSS</p>
-            </div>
-            <div className="p-6 border-solid border-2 border-gray-400 text-center">
-              <div className="m-auto">
-                <Image className="w-13 m-auto" src={Test} alt="/" />
-              </div>
-              <h2 className="text-xl mb-3">Birthday Celeblations</h2>
-              <p className="text-xl">
-                <a
-                  href="https://hbd-template.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-xl"
-                  style={{ color: `${font}` }}
-                >
-                  View Demo
-                </a>
-                -2024
-              </p>
-              <p className="font-bold text-sm md:text-lg mb-1">React, CSS</p>
-            </div>
-            <div className="p-6 border-solid border-2 border-gray-400 text-center">
-              <div className="m-auto">
-                <Image className="w-13 m-auto" src={Test} alt="/" />
-              </div>
-              <h2 className="text-xl mb-3">Birthday Celeblations</h2>
-              <p className="text-xl">
-                <a
-                  href="https://hbd-template.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-xl"
-                  style={{ color: `${font}` }}
-                >
-                  View Demo
-                </a>
-                -2024
-              </p>
-              <p className="font-bold text-sm md:text-lg mb-1">React, CSS</p>
-            </div>
-            <div className="p-6 border-solid border-2 border-gray-400 text-center">
-              <div className="m-auto">
-                <Image className="w-13 m-auto" src={Test} alt="/" />
-              </div>
-              <h2 className="text-xl mb-3">Birthday Celeblations</h2>
-              <p className="text-xl">
-                <a
-                  href="https://hbd-template.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-xl"
-                  style={{ color: `${font}` }}
-                >
-                  View Demo
-                </a>
-                -2024
-              </p>
-              <p className="font-bold text-sm md:text-lg mb-1">React, CSS</p>
+              <p className="font-bold text-sm md:text-md mb-1">React, CSS</p>
             </div>
           </div>
         </div>
