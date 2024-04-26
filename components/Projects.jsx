@@ -10,7 +10,8 @@ import Cook from "../public/assets/cook.png";
 import Game from "../public/assets/game.png";
 import Memo from "../public/assets/memo.png";
 import Weather from "../public/assets/weather.png";
-import Test from "../public/assets/test.png";
+import Tennis from "../public/assets/tennis.png";
+import Design from "../public/assets/design.png";
 
 const Projects = () => {
   const [font, setFont] = useState("#339AF0");
@@ -400,6 +401,65 @@ const Projects = () => {
                 View Code
               </a>
               <p className="font-bold text-sm md:text-md mb-1">React, CSS</p>
+            </div>
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
+              <div className="m-auto">
+                <Image className="w-12 m-auto" src={Tennis} alt="/" />
+              </div>
+              <h2 className="text-xl mb-3">Vancouver Tennis Guide</h2>
+              <p className="text-xl">
+                <a
+                  href="https://vancouver-tennis.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
+                >
+                  View Demo
+                </a>
+                -2024
+              </p>
+              <p className="text-sm md:text-lg">
+                This is a website designed for anyone who is interested in
+                playing tennis in Vancouver.
+              </p>
+              <a
+                href="https://github.com/Tomoyuki3001/van-tennis"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xl"
+                style={{ color: `${font}` }}
+              >
+                View Code
+              </a>
+              <p className="font-bold text-sm md:text-md mb-1">
+                React, CSS(Tailwind)
+              </p>
+            </div>
+            <div className="p-6 border-solid border-2 border-gray-400 text-center">
+              <div className="m-auto">
+                <Image className="w-12 m-auto" src={Design} alt="/" />
+              </div>
+              <h2 className="text-xl mb-3">Tellext Inc.</h2>
+              <p className="text-xl">
+                <a
+                  href="https://tellext.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xl"
+                  style={{ color: `${font}` }}
+                >
+                  View Website
+                </a>
+                -2023
+              </p>
+              <p className="text-sm md:text-lg mb-3">
+                Worked on designing this company website using WordPress and
+                JavaScript.
+              </p>
+              <p className="font-bold text-sm md:text-md mb-1">
+                JavaScript, WordPress
+              </p>
             </div>
           </div>
         </div>
