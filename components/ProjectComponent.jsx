@@ -27,7 +27,7 @@ const ExperienceComponent = ({ project }) => {
           {project.code === "" ? "" : " Code"}
         </a>
       </p>
-      <p className="text-sm md:text-lg">{project.description}</p>
+      <p className="text-sm md:text-base">{project.description}</p>
       <p className="font-bold text-sm md:text-md mt-1">{project.skills}</p>
     </div>
   );
