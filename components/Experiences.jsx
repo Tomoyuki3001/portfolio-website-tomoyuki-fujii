@@ -1,104 +1,65 @@
-import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import Icon from "../public/assets/experience.png";
 import Sales from "../public/assets/sales.png";
+import ExperienceComponent from "./ExperienceComponent";
 
 const Experiences = () => {
-  const [font, setFont] = useState("#339AF0");
+  const experiences = [
+    {
+      id: 1,
+      image: Icon,
+      title: "Front-end Developer Intern",
+      url: "https://www.linkedin.com/company/onyx-creative-media/",
+      name: "Onyx Creative Media",
+      term: "Mar 2024 - Present",
+      skills: "HTML/CSS, JavaScript, GoDaddy",
+    },
+    {
+      id: 2,
+      image: Icon,
+      title: "Front-end Developer Intern",
+      url: "https://gaorfid.com/",
+      name: "GAO RFID",
+      term: "Nov 2023 - Feb 2024",
+      skills: "JavaScript, PHP, WordPress",
+    },
+    {
+      id: 3,
+      image: Icon,
+      title: "Front-end Developer Intern",
+      url: "https://tellext.com/",
+      name: "Tellext",
+      term: "Feb 2023 - Jul 2023",
+      skills: "React, WordPress",
+    },
+    {
+      id: 4,
+      image: Icon,
+      title: "Front-end Developer Volunteering",
+      url: "https://www.onecommunityglobal.org/",
+      name: "One Community Global",
+      term: "Mar 2024 - Present",
+      skills: "HTML/CSS, JavaScript",
+    },
+    {
+      id: 5,
+      image: Sales,
+      title: "Sales and Marketing Representative",
+      url: "https://dunlopsports.com/",
+      name: "DUNLOP SPORTS",
+      term: "Apr 2018 - Jun 2021",
+      skills: "",
+    },
+  ];
   return (
     <div id="experiences" className="w-full lg:mb-32">
       <div className="max-w-[1440px] mx-auto flex flex-col justify-center h-4/5 lg:px-32">
         <p className="text-xl tracking-widest text-gray-500">EXPERIENCE</p>
         <h2 className="py-4">What I&apos;ve Worked</h2>
-        <div className="grid grid-cols lg:grid-cols-3 gap-8 lg:mt-8 lg:px-20">
-          <div className="p-6 border-solid border-2 border-gray-400 text-center">
-            <div className="m-auto w-20 flex flex-col items-center">
-              <Image src={Icon} alt="/" />
-            </div>
-            <h2 className="text-lg mb-3">Front-end Developer Intern</h2>
-            <a
-              href="https://www.linkedin.com/company/onyx-creative-media/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-md md:text-xl lg:text-xl"
-              style={{ color: `${font}` }}
-            >
-              Onyx Creative Media
-            </a>
-            <h3 className="sm:text-sm lg:text-md my-2">Mar 2024 - Present</h3>
-            <h3 className="sm:text-sm lg:text-md mb-1">
-              HTML/CSS, JavaScript, GoDaddy
-            </h3>
-          </div>
-          <div className="p-6 border-solid border-2 border-gray-400 text-center">
-            <div className="m-auto w-20 flex flex-col items-center">
-              <Image src={Icon} alt="/" />
-            </div>
-            <h2 className="text-lg mb-3">Front-end Developer Intern</h2>
-            <a
-              href="https://gaorfid.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-md md:text-xl lg:text-xl"
-              style={{ color: `${font}` }}
-            >
-              GAO RFID
-            </a>
-            <h3 className="text-sm lg:text-md my-2">Nov 2023 - Feb 2024</h3>
-            <h3 className="text-sm lg:text-md mb-1">
-              JavaScript, PHP, WordPress
-            </h3>
-          </div>
-          <div className="p-6 border-solid border-2 border-gray-400 text-center">
-            <div className="m-auto w-20 flex flex-col items-center">
-              <Image src={Icon} alt="/" />
-            </div>
-            <h2 className="text-lg mb-3">Front-end Developer Intern</h2>
-            <a
-              href="https://tellext.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-md md:text-xl lg:text-xl"
-              style={{ color: `${font}` }}
-            >
-              Tellext
-            </a>
-            <h3 className="text-sm lg:text-md my-2">Feb 2023 - Jul 2023</h3>
-            <h3 className="text-sm lg:text-md mb-1">React, WordPress</h3>
-          </div>
-          <div className="p-6 border-solid border-2 border-gray-400 text-center">
-            <div className="m-auto w-20 flex flex-col items-center">
-              <Image src={Icon} alt="/" />
-            </div>
-            <h2 className="text-lg mb-3">Front-end Developer Intern</h2>
-            <a
-              href="https://www.onecommunityglobal.org/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-md md:text-xl lg:text-xl"
-              style={{ color: `${font}` }}
-            >
-              One Community Global
-            </a>
-            <h3 className="text-sm lg:text-md my-2">Feb 2023 - Apr 2023</h3>
-            <h3 className="text-sm lg:text-md mb-1">HTML/CSS, JavaScript</h3>
-          </div>
-          <div className="p-6 border-solid border-2 border-gray-400 text-center">
-            <div className="m-auto w-20 flex flex-col items-center">
-              <Image src={Sales} alt="/" />
-            </div>
-            <h2 className="text-lg mb-3">Sales and Marketing Representative</h2>
-            <a
-              href="https://dunlopsports.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-md md:text-xl lg:text-xl"
-              style={{ color: `${font}` }}
-            >
-              DUNLOP SPORTS
-            </a>
-            <h3 className="text-sm lg:text-md my-2">Apr 2018 - Jun 2021</h3>
-          </div>
+        <div className="grid grid-cols grid-cols-1 md:grid-cols-3 gap-8 md:mt-8 md:px-20">
+          {experiences.map((experience) => (
+            <ExperienceComponent key={experience.id} experience={experience} />
+          ))}
         </div>
       </div>
     </div>
