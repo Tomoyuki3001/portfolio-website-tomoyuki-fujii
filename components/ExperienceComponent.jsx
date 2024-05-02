@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ExperienceComponent = ({ experience }) => {
   return (
-    <div className="p-6 border-solid border border-gray-400 text-center">
+    <div className="p-6 border-solid border border-gray-300 text-center">
       <div className="m-auto w-20 flex flex-col items-center">
         <Image src={experience.image} alt="/" />
       </div>
