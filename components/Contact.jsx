@@ -83,7 +83,7 @@ const Contact = () => {
                     </label>
                     <input
                       type="text"
-                      className="border-solid border-2 p-3 flex border-gray-400"
+                      className="border-solid border p-3 flex border-gray-300"
                       name="user_name"
                       value={name}
                       onChange={handleChangeName}
@@ -96,7 +96,7 @@ const Contact = () => {
                     </label>
                     <input
                       type="email"
-                      className="border-solid border-2 p-3 flex border-gray-400"
+                      className="border-solid border p-3 flex border-gray-300"
                       name="user_email"
                       value={email}
                       onChange={handleChangeEmail}
@@ -110,7 +110,7 @@ const Contact = () => {
                   </label>
                   <input
                     type="text"
-                    className="border-solid border-2 p-3 flex border-gray-400"
+                    className="border-solid border p-3 flex border-gray-300"
                     name="user_subject"
                     value={subject}
                     onChange={handleChangeSubject}
@@ -122,7 +122,7 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
-                    className="border-solid border-2 p-3 flex border-gray-400"
+                    className="border-solid border p-3 flex border-gray-300"
                     rows={10}
                     value={text}
                     onChange={handleChangeText}
