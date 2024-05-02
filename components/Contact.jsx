@@ -78,9 +78,7 @@ const Contact = () => {
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2 font-bold">
-                      Name
-                    </label>
+                    <label className="text-sm py-2 font-bold">Name</label>
                     <input
                       type="text"
                       className="border-solid border p-3 flex border-gray-300"
@@ -91,9 +89,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2 font-bold">
-                      Email
-                    </label>
+                    <label className="text-sm py-2 font-bold">Email</label>
                     <input
                       type="email"
                       className="border-solid border p-3 flex border-gray-300"
@@ -105,9 +101,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2 font-bold">
-                    Subject
-                  </label>
+                  <label className="text-sm py-2 font-bold">Subject</label>
                   <input
                     type="text"
                     className="border-solid border p-3 flex border-gray-300"
@@ -118,9 +112,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2 font-bold">
-                    Message
-                  </label>
+                  <label className="text-sm py-2 font-bold">Message</label>
                   <textarea
                     className="border-solid border p-3 flex border-gray-300"
                     rows={10}
@@ -132,7 +124,7 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-center">
                   <button className="w-3/4 p-4 text-gray-100 mt-12 text-xl btn">
-                    Send Message
+                    Send
                   </button>
                 </div>
               </form>
