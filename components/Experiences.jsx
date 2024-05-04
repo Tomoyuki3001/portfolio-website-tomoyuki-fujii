@@ -52,15 +52,17 @@ const Experiences = () => {
     },
   ];
   return (
-    <div id="experiences" className="w-full lg:mb-32">
-      <div className="max-w-[1440px] mx-auto flex flex-col justify-center h-4/5 lg:px-32">
-        <p className="text-xl tracking-widest text-gray-500">EXPERIENCE</p>
-        <h2 className="py-4">What I&apos;ve Worked</h2>
-        <div className="grid grid-cols grid-cols-1 md:grid-cols-3 gap-8 md:mt-8 md:px-20">
-          {experiences.map((experience) => (
-            <ExperienceComponent key={experience.id} experience={experience} />
-          ))}
-        </div>
+    <div id="experiences" className="w-full px-6 lg:px-[20%] py-8 lg:py-24">
+      <div className="text-center mb-12">
+        <p className="uppercase text-xl tracking-widest text-gray-500">
+          EXPERIENCE
+        </p>
+        <h2 className="pt-4">What I&apos;ve Worked</h2>
+      </div>
+      <div className="grid grid-cols grid-cols-1 md:grid-cols-3 gap-8 md:mt-8 md:px-20">
+        {experiences.map((experience) => (
+          <ExperienceComponent key={experience.id} experience={experience} />
+        ))}
       </div>
     </div>
   );

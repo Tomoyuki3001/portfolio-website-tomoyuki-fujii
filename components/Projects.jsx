@@ -136,16 +136,18 @@ const Projects = () => {
     },
   ];
   return (
-    <div id="projects" className="w-full">
-      <div className="max-w-[1440px] mx-auto py-16 lg:px-32">
-        <p className="text-xl tracking-widest text-gray-500">PROJECTS</p>
-        <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="mx-auto flex flex-col justify-center h-4/5">
-          <div className="grid grid-cols lg:grid-cols-3 gap-8 lg:mt-8 lg:px-20">
-            {projects.map((project) => (
-              <ProjectComponent key={project.id} project={project} />
-            ))}
-          </div>
+    <div id="projects" className="w-full px-6 lg:px-[20%] py-8 lg:py-24">
+      <div className="text-center mb-12">
+        <p className="uppercase text-xl tracking-widest text-gray-500">
+          PROJECTS
+        </p>
+        <h2 className="pt-4">What I&apos;ve Built</h2>
+      </div>
+      <div className="mx-auto flex flex-col justify-center h-4/5">
+        <div className="grid grid-cols lg:grid-cols-3 gap-8 lg:mt-8 lg:px-20">
+          {projects.map((project) => (
+            <ProjectComponent key={project.id} project={project} />
+          ))}
         </div>
       </div>
     </div>
