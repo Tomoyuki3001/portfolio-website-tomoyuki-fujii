@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full flex items-center px-6 lg:px-[20%] py-8 lg:py-24"
+      className="w-full flex items-center px-6 lg:px-[15%] py-8 lg:py-24"
     >
       <div className="col-span-2">
         <div className="text-center mb-12">
