@@ -52,7 +52,7 @@ const Experiences = () => {
     },
   ];
   return (
-    <div id="experiences" className="w-full px-6 lg:px-[15%] py-8 lg:py-24">
+    <div id="experiences" className="w-full py-8 lg:py-24">
       <div className="text-center mb-12">
         <p className="uppercase text-xl tracking-widest text-gray-500">
           EXPERIENCE

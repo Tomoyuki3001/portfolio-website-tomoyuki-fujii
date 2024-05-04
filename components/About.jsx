@@ -7,10 +7,7 @@ import Profile from "../public/img-profile.jpg";
 const About = () => {
   const [show, setShow] = useState(false);
   return (
-    <div
-      id="about"
-      className="w-full flex items-center px-6 lg:px-[15%] py-8 lg:py-24"
-    >
+    <div id="about" className="w-full flex items-center py-8 lg:py-24">
       <div className="col-span-2">
         <div className="text-center mb-12">
           <p className="uppercase text-xl tracking-widest text-gray-500">
@@ -19,16 +16,16 @@ const About = () => {
           <h2 className="pt-4">Who I Am</h2>
         </div>
         <div className="lg:flex">
-          <div className="lg:w-1/2 lg:flex lg:flex-col lg:items-center">
+          <div className="lg:w-1/2 flex flex-col items-center">
             <Image
               src={Profile}
               className="rounded-sm mb-8"
               alt="Profile Image"
-              width={500}
+              width={400}
             />
           </div>
-          <div className="lg:w-1/2">
-            <p className="py-18 mb-8 text-lg text-center">
+          <div className="lg:w-1/2 text-lg">
+            <p>
               I started my web development journey through{" "}
               <span>
                 <a
@@ -43,17 +40,46 @@ const About = () => {
               , mastering HTML/CSS, JavaScript, React, and Node in 2022. From my
               internship, I have worked on and learned React, TypeScript, and
               WordPress to specialize in creating user and mobile friendly
-              full-stack applications with Firebase and MongoDB. <br />
-              <br />I can adapt to new technologies swiftly, believing in
-              selecting the right tools for each project. Furthermore, I have
-              worked as a Sales and Marketing Representative. So, I can bring
-              knowledge of SEO strategies and ideas as well.
-              <br />
-              <br />
-              In my free time, I enjoy playing tennis and running. I also went
-              to the Laver Cup 2023 in Vancouver and it was my first time
-              watching a world level tennis game like a grand slam. My favorite
-              player is Denis Shapovalov.
+              full-stack applications using databases.
+            </p>
+            <br />
+            <p>
+              I am familiar with{" "}
+              <span className="text-blue-700">
+                HTML/CSS(Tailwind), JavaScript, React, Next.js, Python, PHP, and
+                Node
+              </span>
+              .
+            </p>
+            <br />
+            <p>
+              Furthermore, I have worked as a Sales and Marketing Representative
+              and I can bring my knowledge of SEO strategies and marketing
+              experience.
+            </p>
+            <br />
+            <p>
+              In my free time, I enjoy playing tennis and running. I went to the
+              Laver Cup 2023 in Vancouver and it was my first time watching a
+              world level tennis game like a grand slam. My favorite player is
+              Denis Shapovalov.
+            </p>
+            <br />
+            <p>
+              As my project, I have created the{" "}
+              <span>
+                <a
+                  className="text-[#339AF0]"
+                  href="https://vancouver-tennis.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Vancouver Tennis Guide
+                </a>
+              </span>{" "}
+              which is a website designed for anyone who is interested in
+              playing tennis in Vancouver, whether you are a beginner or you
+              want to improve your tennis skills.
             </p>
             <div className="flex items-center justify-center">
               <div className="main_about_button_container">

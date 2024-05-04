@@ -18,10 +18,12 @@ export default function Home() {
       </Head>
       <Navbar />
       <Main />
-      <About />
-      <Experiences />
-      <Projects />
-      <Contact />
+      <div className="px-6 lg:px-[13%]">
+        <About />
+        <Experiences />
+        <Projects />
+        <Contact />
+      </div>
       <Footer />
     </div>
   );

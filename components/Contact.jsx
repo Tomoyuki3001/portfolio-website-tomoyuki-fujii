@@ -62,7 +62,7 @@ const Contact = () => {
     alert("Email has been sent!");
   };
   return (
-    <div id="contact" className="w-full px-6 lg:px-[15%] py-8 lg:py-24">
+    <div id="contact" className="w-full py-8 lg:py-24">
       <div className="text-center mb-12">
         <p className="uppercase text-xl tracking-widest text-gray-500">
           CONTACT
