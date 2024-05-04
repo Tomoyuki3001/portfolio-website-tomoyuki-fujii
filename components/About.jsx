@@ -83,7 +83,7 @@ const About = () => {
             </p>
             <div className="flex items-center justify-center">
               <div className="main_about_button_container">
-                <div className="flex justify-around py-4">
+                <div className="flex justify-around py-16">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
