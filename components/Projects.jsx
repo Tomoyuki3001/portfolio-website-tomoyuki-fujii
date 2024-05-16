@@ -134,6 +134,15 @@ const Projects = () => {
       code: "",
       skills: "JavaScript, WordPress",
     },
+    {
+      id: 13,
+      image: Design,
+      name: "Onyx Creative Media",
+      demo: "https://onyx-creative.com/",
+      description: "Worked on designing this company website using GoDaddy.",
+      code: "",
+      skills: "GoDaddy",
+    },
   ];
   return (
     <div id="projects" className="w-full py-8 lg:py-24">

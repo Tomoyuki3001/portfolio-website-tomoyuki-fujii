@@ -11,7 +11,7 @@ const Experiences = () => {
       title: "Front-end Developer Intern",
       url: "https://www.linkedin.com/company/onyx-creative-media/",
       name: "Onyx Creative Media",
-      term: "Mar 2024 - Present",
+      term: "Mar 2024 - May 2024",
       skills: "HTML/CSS, JavaScript, GoDaddy",
     },
     {

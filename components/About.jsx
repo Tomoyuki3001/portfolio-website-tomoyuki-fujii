@@ -54,8 +54,8 @@ const About = () => {
             <br />
             <p>
               Furthermore, I have worked as a Sales and Marketing Representative
-              and I can bring my knowledge of SEO strategies and marketing
-              experience.
+              at a company and I can bring my knowledge of SEO strategies and
+              marketing experience.
             </p>
             <br />
             <p>
@@ -105,7 +105,7 @@ const About = () => {
                 </div>
                 <button
                   onClick={() => setShow(true)}
-                  className="btn main_about_third_button w-30 p-4 text-gray-100 mt-8 mb-8 text-lg"
+                  className="btn main_about_third_button w-30 p-4 text-gray-100 text-lg"
                 >
                   Show my photos
                 </button>
