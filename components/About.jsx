@@ -107,7 +107,7 @@ const About = () => {
                   onClick={() => setShow(true)}
                   className="btn main_about_third_button w-30 p-4 text-gray-100 text-lg"
                 >
-                  Show my photos
+                  See my photos
                 </button>
                 <Modal show={show} onClose={() => setShow(false)} />
               </div>
