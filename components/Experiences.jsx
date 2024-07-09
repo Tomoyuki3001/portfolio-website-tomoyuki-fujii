@@ -38,7 +38,7 @@ const Experiences = () => {
       title: "Front-end Developer Volunteering",
       url: "https://www.onecommunityglobal.org/",
       name: "One Community Global",
-      term: "Mar 2023 - April 2023",
+      term: "Mar 2023 - Apr 2023",
       skills: "HTML/CSS, JavaScript",
     },
     {
