@@ -30,7 +30,7 @@ const Experiences = () => {
       url: "https://tellext.com/",
       name: "Tellext",
       term: "Feb 2023 - Jul 2023",
-      skills: "React, WordPress",
+      skills: "React, Next, WordPress",
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ const Experiences = () => {
       title: "Front-end Developer Volunteering",
       url: "https://www.onecommunityglobal.org/",
       name: "One Community Global",
-      term: "Mar 2024 - Present",
+      term: "Mar 2023 - April 2023",
       skills: "HTML/CSS, JavaScript",
     },
     {
@@ -46,7 +46,7 @@ const Experiences = () => {
       image: Sales,
       title: "Sales and Marketing Representative",
       url: "https://dunlopsports.com/",
-      name: "DUNLOP SPORTS",
+      name: "Dunlop Sports",
       term: "Apr 2018 - Jun 2021",
       skills: "",
     },
