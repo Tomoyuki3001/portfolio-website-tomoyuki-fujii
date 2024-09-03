@@ -8,6 +8,15 @@ const Experiences = () => {
     {
       id: 1,
       image: Icon,
+      title: "Front-end Developer",
+      url: "https://connec10.co.jp/",
+      name: "CONNECT Inc.",
+      term: "Sep 2024 - Present",
+      skills: "TBD",
+    },
+    {
+      id: 2,
+      image: Icon,
       title: "Front-end Developer Intern",
       url: "https://www.linkedin.com/company/onyx-creative-media/",
       name: "Onyx Creative Media",
@@ -15,7 +24,7 @@ const Experiences = () => {
       skills: "HTML/CSS, JavaScript, GoDaddy",
     },
     {
-      id: 2,
+      id: 3,
       image: Icon,
       title: "Front-end Developer Intern",
       url: "https://gaorfid.com/",
@@ -24,7 +33,7 @@ const Experiences = () => {
       skills: "JavaScript, PHP, WordPress",
     },
     {
-      id: 3,
+      id: 4,
       image: Icon,
       title: "Front-end Developer Intern",
       url: "https://tellext.com/",
@@ -33,7 +42,7 @@ const Experiences = () => {
       skills: "React, Next, WordPress",
     },
     {
-      id: 4,
+      id: 5,
       image: Icon,
       title: "Front-end Developer Volunteering",
       url: "https://www.onecommunityglobal.org/",
@@ -42,7 +51,7 @@ const Experiences = () => {
       skills: "HTML/CSS, JavaScript",
     },
     {
-      id: 5,
+      id: 6,
       image: Sales,
       title: "Sales and Marketing Representative",
       url: "https://dunlopsports.com/",

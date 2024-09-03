@@ -70,8 +70,14 @@ const Contact = () => {
         <h2 className="pt-4">Get In Touch</h2>
       </div>
       <div className="flex justify-around w-full">
-        <iframe
+        {/* <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.37148313464!2d-123.20630488144621!3d49.2578181906132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1710879539088!5m2!1sen!2sca"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          className="google-map"
+        ></iframe> */}
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326937.7401162046!2d137.12935345851028!3d35.48046824965551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo!5e0!3m2!1sen!2sjp!4v1725334804086!5m2!1sen!2sjp"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           className="google-map"

@@ -48,7 +48,7 @@ const Main = () => {
             </span>
           </div>
           <p className="pt-10 pb-6 px-4 text-white max-w-[70%] m-auto text-xl">
-            I am a Junior Front-end Developer based in Vancouver.
+            I am a Junior Front-end Developer based in Tokyo.
           </p>
           <button className="mainBtn">
             <a
