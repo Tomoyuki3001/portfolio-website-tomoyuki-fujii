@@ -8,11 +8,11 @@ const Experiences = () => {
     {
       id: 1,
       image: Icon,
-      title: "Front-end Developer",
+      title: "Full-stack Developer",
       url: "https://connec10.co.jp/",
       name: "CONNECT Inc.",
       term: "Sep 2024 - Present",
-      skills: "TBD",
+      skills: "JavaScript, PHP, Laravel, MySQL",
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ const Experiences = () => {
     {
       id: 5,
       image: Icon,
-      title: "Front-end Developer Volunteering",
+      title: "Front-end Developer Intern",
       url: "https://www.onecommunityglobal.org/",
       name: "One Community Global",
       term: "Mar 2023 - Apr 2023",

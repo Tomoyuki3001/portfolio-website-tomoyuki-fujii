@@ -48,11 +48,11 @@ const Main = () => {
             </span>
           </div>
           <p className="pt-10 pb-6 px-4 text-white max-w-[70%] m-auto text-xl">
-            I am a Junior Front-end Developer based in Tokyo.
+            I am a Junior Full-stack Developer based in Tokyo.
           </p>
           <button className="mainBtn">
             <a
-              href="https://drive.google.com/file/d/1jVCXHkV8Hh-OJ9OLoZdsz13E0lhw67cl/view?usp=sharing"
+              href="https://drive.google.com/file/d/12x3bSZKNJxTgqUkHozYKTL3gVH-bhsTN/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
