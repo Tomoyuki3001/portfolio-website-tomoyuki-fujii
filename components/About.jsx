@@ -3,6 +3,7 @@ import Image from "next/image";
 import Modal from "./Modal.jsx";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import Profile from "../public/img-profile.jpg";
+import { BiEnvelope } from "react-icons/bi";
 
 const About = () => {
   const [show, setShow] = useState(false);
@@ -25,8 +26,10 @@ const About = () => {
             />
           </div>
           <div className="lg:w-1/2 text-lg">
+            <p>Hello, my name is Tomoyuki Fujii(Tomo).</p>
+            <br />
             <p>
-              I started my web development journey through{" "}
+              I started my web development journey at{" "}
               <span>
                 <a
                   className="text-[#339AF0]"
@@ -37,36 +40,27 @@ const About = () => {
                   Cornerstone International Community College of Canada
                 </a>
               </span>
-              , mastering HTML/CSS, JavaScript, React, and Node in 2022. From my
-              internship, I have worked on and learned React, TypeScript, and
-              WordPress to specialize in creating user and mobile friendly
-              full-stack applications using databases.
+              , mastering HTML/CSS, JavaScript, React, Node.js, and MySQL in
+              2022. After my class term, I started working on some internship
+              using React, TypeScript, and WordPress to specialize in creating
+              user and mobile friendly full-stack applications and websites.
             </p>
             <br />
             <p>
-              I am familiar with{" "}
-              <span className="text-blue-700">
-                HTML/CSS(Tailwind), JavaScript, React, Next.js, Python, PHP, and
-                Node
-              </span>
-              .
-            </p>
-            <br />
-            <p>
-              Furthermore, I have worked as a Sales and Marketing Representative
+              I have previously worked as a Sales and Marketing Representative
               at a company and I can bring my knowledge of SEO strategies and
               marketing experience.
             </p>
             <br />
             <p>
-              In my free time, I enjoy playing tennis and running. I went to the
-              Laver Cup 2023 in Vancouver and it was my first time watching a
-              world level tennis game like a grand slam. My favorite player is
-              Denis Shapovalov.
+              In my free time, I enjoy playing tennis and running outside. I
+              went to the Laver Cup 2023 in Vancouver and it was my first time
+              watching an international tennis game like a grand slam. My
+              favorite players are Denis Shapovalov and Ben Shelton.
             </p>
             <br />
             <p>
-              As my project, I have created the{" "}
+              As my project, I have created{" "}
               <span>
                 <a
                   className="text-[#339AF0]"
@@ -81,36 +75,45 @@ const About = () => {
               playing tennis in Vancouver, whether you are a beginner or you
               want to improve your tennis skills.
             </p>
-            <div className="flex items-center justify-center">
-              <div className="main_about_button_container">
-                <div className="flex justify-around py-16">
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaLinkedinIn size={25} />
-                    </div>
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/Tomoyuki3001"
-                  >
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaGithub size={25} />
-                    </div>
-                  </a>
-                </div>
-                <button
-                  onClick={() => setShow(true)}
-                  className="btn main_about_third_button w-30 p-4 text-gray-100 text-lg"
+            <div className="main_about_button_container lg:px-24">
+              <div className="flex justify-around py-16">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/tomoyuki-fujii-376616251/"
                 >
-                  See my photos
-                </button>
-                <Modal show={show} onClose={() => setShow(false)} />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaLinkedinIn size={25} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Tomoyuki3001"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <FaGithub size={25} />
+                  </div>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="mailto:mjr01300828@gmail.com"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <BiEnvelope size={25} />
+                  </div>
+                </a>
               </div>
+            </div>
+            <div className="flex justify-center">
+              <button
+                onClick={() => setShow(true)}
+                className="btn main_about_third_button w-30 p-4 text-gray-100 text-lg"
+              >
+                my photos
+              </button>
+              <Modal show={show} onClose={() => setShow(false)} />
             </div>
           </div>
         </div>

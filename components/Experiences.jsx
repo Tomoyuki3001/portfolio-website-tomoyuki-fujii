@@ -8,7 +8,7 @@ const Experiences = () => {
     {
       id: 1,
       image: Icon,
-      title: "Full-stack Developer",
+      title: "Full-Stack Developer",
       url: "https://connec10.co.jp/",
       name: "CONNECT Inc.",
       term: "Sep 2024 - Present",
@@ -17,7 +17,7 @@ const Experiences = () => {
     {
       id: 2,
       image: Icon,
-      title: "Front-end Developer Intern",
+      title: "Front-End Developer Intern",
       url: "https://www.linkedin.com/company/onyx-creative-media/",
       name: "Onyx Creative Media",
       term: "Mar 2024 - May 2024",
@@ -26,7 +26,7 @@ const Experiences = () => {
     {
       id: 3,
       image: Icon,
-      title: "Front-end Developer Intern",
+      title: "Front-End Developer Intern",
       url: "https://gaorfid.com/",
       name: "GAO RFID",
       term: "Nov 2023 - Feb 2024",
@@ -35,7 +35,7 @@ const Experiences = () => {
     {
       id: 4,
       image: Icon,
-      title: "Front-end Developer Intern",
+      title: "Front-End Developer Intern",
       url: "https://tellext.com/",
       name: "Tellext",
       term: "Feb 2023 - Jul 2023",
@@ -44,7 +44,7 @@ const Experiences = () => {
     {
       id: 5,
       image: Icon,
-      title: "Front-end Developer Intern",
+      title: "Front-End Developer Intern",
       url: "https://www.onecommunityglobal.org/",
       name: "One Community Global",
       term: "Mar 2023 - Apr 2023",
